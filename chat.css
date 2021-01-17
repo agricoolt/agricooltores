@@ -1,0 +1,412 @@
+/* screen - chat */
+
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.chat {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 604px;
+  overflow-x: hidden;
+  position: relative;
+  width: 480px;
+}
+.chat .elipse-10-4a9k2Y {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+}
+.chat .elipse-11-RH0WJ5 {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+}
+.chat .elipse-12-4eduM0 {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 10px;
+  width: 58px;
+}
+.chat .elipse-6-KnyYHa {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 25px;
+  width: 58px;
+}
+.chat .elipse-7-m4CVSK {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+}
+.chat .elipse-8-cYXVq0 {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+}
+.chat .elipse-9-eSNWXa {
+  background-color: transparent;
+  height: 57px;
+  left: 36px;
+  position: absolute;
+  top: 15px;
+  width: 58px;
+}
+.chat .estou-a-caminho-RH0WJ5 {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .me-recomen-to-bem-bom-4a9k2Y {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .overlap-group-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group1-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group2-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group3-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group4-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group5-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 87px;
+  margin-left: -18px;
+  margin-top: 0px;
+  position: relative;
+  width: 513px;
+}
+.chat .overlap-group6-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 97px;
+  margin-left: -18px;
+  margin-top: -10px;
+  position: relative;
+  width: 513px;
+}
+.chat .quando-voc-ga-nafeira-eSNWXa {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .retngulo-40-4eduM0 {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-41-RH0WJ5 {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-42-4a9k2Y {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-43-eSNWXa {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-44-cYXVq0 {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-45-m4CVSK {
+  background-color: var(--white);
+  height: 87px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .retngulo-46-KnyYHa {
+  background-color: var(--white);
+  height: 97px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 513px;
+}
+.chat .seus-produ--em-so-jos-4eduM0 {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .sua-alface-vem-lavada-m4CVSK {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .voc-levari-liana-tera-KnyYHa {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 21px;
+  white-space: nowrap;
+  width: auto;
+}
+.chat .voc-tem-es-inho-sbado-cYXVq0 {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 146px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}

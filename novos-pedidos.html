@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/chat.css" />
+    <link rel="stylesheet" type="text/css" href="css/novos-pedidos.css" />
+    <link rel="stylesheet" type="text/css" href="css/perfil.css" />
+    <link rel="stylesheet" type="text/css" href="css/avisos.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:900,500,700");
+
+      @font-face {
+        font-family: "Brasilero";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/60049ff6685e8279ca1ea700/fonts/brasilero.TTF")
+          format("None");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="novos-pedidos" />
+    <div class="container-center-horizontal">
+      <div class="novos-pedidos screen">
+        <div class="auto-flex1-C61RwL">
+          <a href="inicio.html">
+            <div class="grupo-57-uxzUmT">
+              <div class="grupo-43-Fuxjh5">
+                <div class="agricooltor-NRs50t">Agricooltor</div>
+                <div class="grupo-42-NRs50t">
+                  <div class="grupo-9-HQgBru">
+                    <div class="grupo-4-xmkw5M">
+                      <div class="grupo-1-qBGDn4"></div>
+                      <div class="grupo-3-qBGDn4">
+                        <div class="grupo-2-mPNnjS"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-8-xmkw5M">
+                      <div class="grupo-5-2ORECX"></div>
+                      <div class="grupo-7-2ORECX">
+                        <div class="grupo-6-ZqtY7m"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grupo-18-HQgBru">
+                    <div class="grupo-13-Hgef1G">
+                      <div class="grupo-10-36wSaP"></div>
+                      <div class="grupo-12-36wSaP">
+                        <div class="grupo-11-xk2VbV"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-17-Hgef1G">
+                      <div class="grupo-14-JdQnfz"></div>
+                      <div class="grupo-16-JdQnfz">
+                        <div class="grupo-15-fxH8Bq"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grupo-40-HQgBru">
+                    <div class="grupo-23-3l8asg">
+                      <div class="grupo-19-xRBW3c"></div>
+                      <div class="grupo-22-xRBW3c">
+                        <div class="grupo-20-yTLIhA"></div>
+                        <div class="grupo-21-yTLIhA"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-27-3l8asg">
+                      <div class="grupo-24-brq3PZ"></div>
+                      <div class="grupo-26-brq3PZ">
+                        <div class="grupo-25-VsKdBj"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-31-3l8asg">
+                      <div class="grupo-28-K6Ibq5"></div>
+                      <div class="grupo-30-K6Ibq5">
+                        <div class="grupo-29-ddvaLp"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-35-3l8asg">
+                      <div class="grupo-32-mkxwgF"></div>
+                      <div class="grupo-34-mkxwgF">
+                        <div class="grupo-33-Tf0T3E"></div>
+                      </div>
+                    </div>
+                    <div class="grupo-39-3l8asg">
+                      <div class="grupo-36-bkQSYk"></div>
+                      <div class="grupo-38-bkQSYk">
+                        <div class="grupo-37-oxXQcj"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grupo-41-HQgBru">
+                    <img class="caminho-24-Y7vxSJ" src="img/caminho-24-1@1x.png" />
+                    <img class="caminho-25-Y7vxSJ" src="img/caminho-25-1@1x.png" />
+                    <img class="caminho-26-Y7vxSJ" src="img/caminho-26-1@1x.png" />
+                    <img class="caminho-27-Y7vxSJ" src="img/caminho-27-1@1x.png" />
+                    <img class="caminho-28-Y7vxSJ" src="img/caminho-28-1@1x.png" />
+                    <img class="caminho-29-Y7vxSJ" src="img/caminho-29-1@1x.png" />
+                    <img class="caminho-30-Y7vxSJ" src="img/caminho-30-1@1x.png" />
+                    <img class="caminho-31-Y7vxSJ" src="img/caminho-31-1@1x.png" />
+                    <img class="caminho-32-Y7vxSJ" src="img/caminho-29-1@1x.png" />
+                    <img class="caminho-33-Y7vxSJ" src="img/caminho-33-1@1x.png" />
+                    <img class="caminho-34-Y7vxSJ" src="img/caminho-34-1@1x.png" />
+                    <div class="retngulo-1-Y7vxSJ"></div>
+                    <div class="retngulo-2-Y7vxSJ"></div>
+                    <div class="retngulo-3-Y7vxSJ"></div>
+                    <div class="retngulo-4-Y7vxSJ"></div>
+                    <div class="retngulo-5-Y7vxSJ"></div>
+                    <div class="retngulo-6-Y7vxSJ"></div>
+                    <div class="retngulo-7-Y7vxSJ"></div>
+                    <div class="retngulo-8-Y7vxSJ"></div>
+                    <div class="retngulo-9-Y7vxSJ"></div>
+                    <div class="retngulo-10-Y7vxSJ"></div>
+                    <img class="caminho-35-Y7vxSJ" src="img/caminho-35-1@1x.png" />
+                    <img class="caminho-36-Y7vxSJ" src="img/caminho-36-1@1x.png" />
+                    <img class="caminho-37-Y7vxSJ" src="img/caminho-37-1@1x.png" />
+                    <img class="caminho-38-Y7vxSJ" src="img/caminho-38-1@1x.png" />
+                  </div>
+                </div>
+              </div></div
+          ></a>
+          <div class="overlap-group2-uxzUmT">
+            <div class="retngulo-11-KCI6xu"></div>
+            <div class="componente-15-1-KCI6xu">
+              <a href="javascript:ShowOverlay('perfil', 'animate-appear');">
+                <div class="grupo-de-mscara-2-mpOx8y">
+                  <div class="retngulo-32-yxu7dO"></div>
+                  <img class="icon-aweso-e-user-alt-yxu7dO" src="img/icon-awesome-user-alt-1@1x.png" /></div
+              ></a>
+            </div>
+            <div class="componente-14-1-KCI6xu">
+              <a href="javascript:ShowOverlay('chat', 'animate-appear');">
+                <div class="grupo-de-mscara-3-0hNc8R">
+                  <div class="retngulo-34-YN2NGH"></div>
+                  <img class="icon-material-chat-YN2NGH" src="img/icon-material-chat-1@1x.png" /></div
+              ></a>
+            </div>
+            <div class="componente-13-1-KCI6xu">
+              <a href="javascript:ShowOverlay('avisos', 'animate-appear');">
+                <div class="grupo-de-mscara-4-zAmXv1">
+                  <div class="retngulo-36-ZfqArL"></div>
+                  <img class="icon-awesome-bell-ZfqArL" src="img/icon-awesome-bell-1@1x.png" /></div
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="auto-flex7-C61RwL">
+          <div class="auto-flex-HDigiO">
+            <div class="overlap-group3-Oxmxo1">
+              <div class="retngulo-25-wpbsn0"></div>
+              <a href="inicio.html">
+                <div class="componente-3-1-wpbsn0">
+                  <img class="icon-awesome-home-c6kG2G" src="img/icon-awesome-home-2@1x.png" />
+                  <div class="incio-c6kG2G poppins-medium-boulder-25px">Início</div>
+                </div></a
+              >
+              <a href="minha-loja.html">
+                <div class="componente-4-1-wpbsn0">
+                  <img class="icon-awesome-store-Zr3WUT" src="img/icon-awesome-store-1@1x.png" />
+                  <div class="minha-loja-Zr3WUT poppins-medium-boulder-25px">Minha Loja</div>
+                </div></a
+              >
+              <a href="entregas.html">
+                <div class="componente-5-1-wpbsn0">
+                  <img class="icon-awesome-truck-gOogS8" src="img/icon-awesome-truck-2@1x.png" />
+                  <div class="entregas-gOogS8 poppins-medium-boulder-25px">Entregas</div>
+                </div></a
+              >
+              <a href="minhas-vendas.html">
+                <div class="componente-6-1-wpbsn0">
+                  <img class="icon-aweso-ing-basket-uSs9H9" src="img/icon-awesome-shopping-basket-1@1x.png" />
+                  <div class="minhas-vendas-uSs9H9 poppins-medium-boulder-25px">Minhas Vendas</div>
+                </div></a
+              >
+              <a href="pagamentos.html">
+                <div class="componente-11-1-wpbsn0">
+                  <img class="icon-aweso-money-bill-oICqbU" src="img/icon-awesome-money-bill-1@1x.png" />
+                  <div class="pagamentos-oICqbU poppins-medium-boulder-25px">Pagamentos</div>
+                </div></a
+              >
+              <div class="componente-17-1-wpbsn0">
+                <div class="novos-pedidos-sRzXvh poppins-medium-boulder-25px">Novos Pedidos</div>
+                <img class="icon-mater-w-releases-sRzXvh" src="img/icon-material-new-releases-3@1x.png" />
+              </div>
+              <a href="informacoes.html">
+                <div class="componente-12-3-wpbsn0">
+                  <div class="informaes-zFEYTn poppins-medium-boulder-25px">Informações</div>
+                  <div class="icon-ionic-ios-stats-zFEYTn">
+                    <img class="caminho-1-PThHdx" src="img/caminho-1-1@1x.png" />
+                    <img class="caminho-2-PThHdx" src="img/caminho-2-1@1x.png" />
+                    <img class="caminho-3-PThHdx" src="img/caminho-3-1@1x.png" />
+                    <img class="caminho-4-PThHdx" src="img/caminho-4-1@1x.png" />
+                  </div></div
+              ></a>
+            </div>
+            <div class="overlap-group-Oxmxo1">
+              <div class="grupo-75-4iqBOM">
+                <div class="grupo-69-FMMfsG">
+                  <div class="retngulo-38-MgUag3 border-class-7"></div>
+                  <div class="retngulo-39-MgUag3"></div>
+                </div>
+                <div class="novos-pedidos-FMMfsG">Novos Pedidos</div>
+                <img class="icon-mater-w-releases-FMMfsG" src="img/icon-material-new-releases-2@1x.png" />
+              </div>
+              <div class="x6-4iqBOM">6</div>
+              <div class="r65670-4iqBOM">R$656,70</div>
+              <div class="x2-4iqBOM">2</div>
+              <div class="r25670-4iqBOM">R$256,70</div>
+              <div class="x190121-4iqBOM poppins-medium-black-30px">19/01/21</div>
+              <div class="trajeto-de-70-km-4iqBOM poppins-medium-black-30px">trajeto de 70 km</div>
+              <div class="so-fechado-da-entrega-4iqBOM">são fechados automaticamente<br />12h antes da entrega</div>
+              <div class="so-fechado-da-entrega-EBrasU">são fechados automaticamente<br />12h antes da entrega</div>
+              <div class="trajeto-de-15-km-4iqBOM poppins-medium-black-30px">trajeto de 15 km</div>
+              <div class="x230121-4iqBOM poppins-medium-black-30px">23/01/21</div>
+              <div class="grupo-81-4iqBOM"><div class="fechar-pedidos-Vf6XGf">FECHAR PEDIDOS</div></div>
+              <div class="grupo-82-4iqBOM"><div class="fechar-pedidos-MY6yLp">FECHAR PEDIDOS</div></div>
+            </div>
+          </div>
+          <div class="auto-flex6-HDigiO">
+            <div class="auto-flex5-PhOxO2">
+              <div class="x190121-CH4CYB">19/01/21</div>
+              <img class="linha-3-CH4CYB" src="img/linha-3@1x.png" />
+            </div>
+            <div class="repetio-de-grade-6-PhOxO2">
+              <div class="auto-flex8-DQ1Ya2">
+                <div class="x0-XoFQEc">
+                  <div class="grupo-83-xeNHDf">
+                    <div class="grupo-69-RsHPWs">
+                      <div class="retngulo-38-gzOqfZ border-class-4"></div>
+                      <div class="retngulo-39-gzOqfZ"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-xeNHDf">
+                    <div class="manuel-1FCo3s">Manuel</div>
+                    <img class="elipse-1-1FCo3s" src="img/elipse-1@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-xeNHDf poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-xeNHDf poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-xeNHDf poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-xeNHDf poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-xeNHDf poppins-bold-black-20px">100 g</div>
+                  <div class="x120-xeNHDf poppins-bold-black-25px">1,20</div>
+                  <div class="alho-xeNHDf poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-xeNHDf poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-xeNHDf poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-xeNHDf poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-xeNHDf poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-xeNHDf poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-xeNHDf poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-xeNHDf poppins-bold-black-20px">300 g</div>
+                  <div class="x300-Wtjdrb poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-xeNHDf poppins-bold-black-25px">23,70</div>
+                  <div class="total-xeNHDf poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-xeNHDf poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-xeNHDf poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-xeNHDf poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-xeNHDf poppins-medium-black-25px">Cenoura</div>
+                </div>
+                <div class="x2-XoFQEc">
+                  <div class="grupo-83-vrs5Ax">
+                    <div class="grupo-69-hgZ6NG">
+                      <div class="retngulo-38-O1sxZ9 border-class-4"></div>
+                      <div class="retngulo-39-O1sxZ9"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-vrs5Ax">
+                    <div class="eliza-FPkARl">Eliza</div>
+                    <img class="elipse-1-FPkARl" src="img/elipse-1-2@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-vrs5Ax poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-vrs5Ax poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-vrs5Ax poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-vrs5Ax poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-vrs5Ax poppins-bold-black-20px">100 g</div>
+                  <div class="x120-vrs5Ax poppins-bold-black-25px">1,20</div>
+                  <div class="alho-vrs5Ax poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-vrs5Ax poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-vrs5Ax poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-vrs5Ax poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-vrs5Ax poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-vrs5Ax poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-vrs5Ax poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-vrs5Ax poppins-bold-black-20px">300 g</div>
+                  <div class="x300-S6s3Nw poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-vrs5Ax poppins-bold-black-25px">23,70</div>
+                  <div class="total-vrs5Ax poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-vrs5Ax poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-vrs5Ax poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-vrs5Ax poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-vrs5Ax poppins-medium-black-25px">Cenoura</div>
+                </div>
+                <div class="x4-XoFQEc">
+                  <div class="grupo-83-xQ3tAO">
+                    <div class="grupo-69-HxDPsC">
+                      <div class="retngulo-38-cxKg1S border-class-4"></div>
+                      <div class="retngulo-39-cxKg1S"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-xQ3tAO">
+                    <div class="miguel-r5GU5F">Miguel</div>
+                    <img class="elipse-1-r5GU5F" src="img/elipse-1-4@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-xQ3tAO poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-xQ3tAO poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-xQ3tAO poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-xQ3tAO poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-xQ3tAO poppins-bold-black-20px">100 g</div>
+                  <div class="x120-xQ3tAO poppins-bold-black-25px">1,20</div>
+                  <div class="alho-xQ3tAO poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-xQ3tAO poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-xQ3tAO poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-xQ3tAO poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-xQ3tAO poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-xQ3tAO poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-xQ3tAO poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-xQ3tAO poppins-bold-black-20px">300 g</div>
+                  <div class="x300-rvc9xD poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-xQ3tAO poppins-bold-black-25px">23,70</div>
+                  <div class="total-xQ3tAO poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-xQ3tAO poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-xQ3tAO poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-xQ3tAO poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-xQ3tAO poppins-medium-black-25px">Cenoura</div>
+                </div>
+              </div>
+              <div class="auto-flex9-DQ1Ya2">
+                <div class="x1-jwjM16">
+                  <div class="grupo-83-wk77fo">
+                    <div class="grupo-69-dBcTtJ">
+                      <div class="retngulo-38-4YkAN4 border-class-4"></div>
+                      <div class="retngulo-39-4YkAN4"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-wk77fo">
+                    <div class="heitor-Aa0oz3">Heitor</div>
+                    <img class="elipse-1-Aa0oz3" src="img/elipse-1-1@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-wk77fo poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-wk77fo poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-wk77fo poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-wk77fo poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-wk77fo poppins-bold-black-20px">100 g</div>
+                  <div class="x120-wk77fo poppins-bold-black-25px">1,20</div>
+                  <div class="alho-wk77fo poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-wk77fo poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-wk77fo poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-wk77fo poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-wk77fo poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-wk77fo poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-wk77fo poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-wk77fo poppins-bold-black-20px">300 g</div>
+                  <div class="x300-RgWxZP poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-wk77fo poppins-bold-black-25px">23,70</div>
+                  <div class="total-wk77fo poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-wk77fo poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-wk77fo poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-wk77fo poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-wk77fo poppins-medium-black-25px">Cenoura</div>
+                </div>
+                <div class="x3-jwjM16">
+                  <div class="grupo-83-pueiCB">
+                    <div class="grupo-69-Q2uD16">
+                      <div class="retngulo-38-z8x8cW border-class-4"></div>
+                      <div class="retngulo-39-z8x8cW"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-pueiCB">
+                    <div class="gilberto-OAZ6eu">Gilberto</div>
+                    <img class="elipse-1-OAZ6eu" src="img/elipse-1-3@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-pueiCB poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-pueiCB poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-pueiCB poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-pueiCB poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-pueiCB poppins-bold-black-20px">100 g</div>
+                  <div class="x120-pueiCB poppins-bold-black-25px">1,20</div>
+                  <div class="alho-pueiCB poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-pueiCB poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-pueiCB poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-pueiCB poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-pueiCB poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-pueiCB poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-pueiCB poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-pueiCB poppins-bold-black-20px">300 g</div>
+                  <div class="x300-iA9E80 poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-pueiCB poppins-bold-black-25px">23,70</div>
+                  <div class="total-pueiCB poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-pueiCB poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-pueiCB poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-pueiCB poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-pueiCB poppins-medium-black-25px">Cenoura</div>
+                </div>
+                <div class="x5-jwjM16">
+                  <div class="grupo-83-i9x28E">
+                    <div class="grupo-69-qFmtDo">
+                      <div class="retngulo-38-HmAwz2 border-class-4"></div>
+                      <div class="retngulo-39-HmAwz2"></div>
+                    </div>
+                  </div>
+                  <div class="grupo-62-i9x28E">
+                    <div class="eric-NjpTNl">Eric</div>
+                    <img class="elipse-1-NjpTNl" src="img/elipse-1-5@1x.png" />
+                  </div>
+                  <div class="rua-genera-3-apto-101-i9x28E poppins-medium-black-25px">
+                    Rua General Aristides<br />Athayde Jr - 673 apto 101
+                  </div>
+                  <div class="x1-uni-i9x28E poppins-bold-black-20px">1 uni</div>
+                  <div class="x250-i9x28E poppins-bold-black-25px">2,50</div>
+                  <div class="alface-americana-i9x28E poppins-medium-black-25px">Alface Americana</div>
+                  <div class="x100-g-i9x28E poppins-bold-black-20px">100 g</div>
+                  <div class="x120-i9x28E poppins-bold-black-25px">1,20</div>
+                  <div class="alho-i9x28E poppins-medium-black-25px">Alho</div>
+                  <div class="x2-uni-i9x28E poppins-bold-black-20px">2 uni</div>
+                  <div class="x400-i9x28E poppins-bold-black-25px">4,00</div>
+                  <div class="beterraba-i9x28E poppins-medium-black-25px">Beterraba</div>
+                  <div class="x1-kg-i9x28E poppins-bold-black-20px">1 kg</div>
+                  <div class="x300-i9x28E poppins-bold-black-25px">3,00</div>
+                  <div class="tomate-i9x28E poppins-medium-black-25px">Tomate</div>
+                  <div class="x300-g-i9x28E poppins-bold-black-20px">300 g</div>
+                  <div class="x300-zTdwdg poppins-bold-black-25px">3,00</div>
+                  <div class="x2370-i9x28E poppins-bold-black-25px">23,70</div>
+                  <div class="total-i9x28E poppins-bold-black-25px">TOTAL</div>
+                  <div class="manjerico-i9x28E poppins-medium-black-25px">Manjericão</div>
+                  <div class="x5-uni-i9x28E poppins-bold-black-20px">5 uni</div>
+                  <div class="x1000-i9x28E poppins-bold-black-25px">10,00</div>
+                  <div class="cenoura-i9x28E poppins-medium-black-25px">Cenoura</div>
+                </div>
+              </div>
+            </div>
+            <div class="auto-flex2-PhOxO2">
+              <div class="overlap-group1-9K8QzU">
+                <div class="grupo-117-Gm7cg2"><div class="imprimir-listas-Gzk27N">IMPRIMIR LISTAS</div></div>
+                <img class="icon-awesome-print-Gm7cg2" src="img/icon-awesome-print@1x.png" />
+              </div>
+              <div class="grupo-116-9K8QzU"><div class="fechar-pedidos-76GcxY">FECHAR PEDIDOS</div></div>
+            </div>
+            <div class="so-fechado-da-entrega-PhOxO2">são fechados automaticamente<br />12h antes da entrega</div>
+            <div class="auto-flex3-PhOxO2">
+              <div class="x230121-nkop0c">23/01/21</div>
+              <img class="linha-4-nkop0c" src="img/linha-3@1x.png" />
+            </div>
+            <div class="repetio-de-grade-7-PhOxO2">
+              <div class="x0-1-Ugbxmt">
+                <div class="grupo-83-xYz9xJ">
+                  <div class="grupo-69-HQDDK5">
+                    <div class="retngulo-38-DfWQnw border-class-4"></div>
+                    <div class="retngulo-39-DfWQnw"></div>
+                  </div>
+                </div>
+                <div class="grupo-62-xYz9xJ">
+                  <div class="diana-dxxgFt">Diana</div>
+                  <img class="elipse-1-dxxgFt" src="img/elipse-1-6@1x.png" />
+                </div>
+                <div class="rua-genera-3-apto-101-xYz9xJ poppins-medium-black-25px">
+                  Rua General Aristides<br />Athayde Jr - 673 apto 101
+                </div>
+                <div class="x1-uni-xYz9xJ poppins-bold-black-20px">1 uni</div>
+                <div class="x250-xYz9xJ poppins-bold-black-25px">2,50</div>
+                <div class="alface-americana-xYz9xJ poppins-medium-black-25px">Alface Americana</div>
+                <div class="x100-g-xYz9xJ poppins-bold-black-20px">100 g</div>
+                <div class="x120-xYz9xJ poppins-bold-black-25px">1,20</div>
+                <div class="alho-xYz9xJ poppins-medium-black-25px">Alho</div>
+                <div class="x2-uni-xYz9xJ poppins-bold-black-20px">2 uni</div>
+                <div class="x400-xYz9xJ poppins-bold-black-25px">4,00</div>
+                <div class="beterraba-xYz9xJ poppins-medium-black-25px">Beterraba</div>
+                <div class="x1-kg-xYz9xJ poppins-bold-black-20px">1 kg</div>
+                <div class="x300-xYz9xJ poppins-bold-black-25px">3,00</div>
+                <div class="tomate-xYz9xJ poppins-medium-black-25px">Tomate</div>
+                <div class="x300-g-xYz9xJ poppins-bold-black-20px">300 g</div>
+                <div class="x300-pxck36 poppins-bold-black-25px">3,00</div>
+                <div class="x2370-xYz9xJ poppins-bold-black-25px">23,70</div>
+                <div class="total-xYz9xJ poppins-bold-black-25px">TOTAL</div>
+                <div class="manjerico-xYz9xJ poppins-medium-black-25px">Manjericão</div>
+                <div class="x5-uni-xYz9xJ poppins-bold-black-20px">5 uni</div>
+                <div class="x1000-xYz9xJ poppins-bold-black-25px">10,00</div>
+                <div class="cenoura-xYz9xJ poppins-medium-black-25px">Cenoura</div>
+              </div>
+              <div class="x1-1-Ugbxmt">
+                <div class="grupo-83-JXtMVO">
+                  <div class="grupo-69-RdxXTq">
+                    <div class="retngulo-38-CSibcP border-class-4"></div>
+                    <div class="retngulo-39-CSibcP"></div>
+                  </div>
+                </div>
+                <div class="grupo-62-JXtMVO">
+                  <div class="manuela-WpImdO">Manuela</div>
+                  <img class="elipse-1-WpImdO" src="img/elipse-1-7@1x.png" />
+                </div>
+                <div class="rua-genera-3-apto-101-JXtMVO poppins-medium-black-25px">
+                  Rua General Aristides<br />Athayde Jr - 673 apto 101
+                </div>
+                <div class="x1-uni-JXtMVO poppins-bold-black-20px">1 uni</div>
+                <div class="x250-JXtMVO poppins-bold-black-25px">2,50</div>
+                <div class="alface-americana-JXtMVO poppins-medium-black-25px">Alface Americana</div>
+                <div class="x100-g-JXtMVO poppins-bold-black-20px">100 g</div>
+                <div class="x120-JXtMVO poppins-bold-black-25px">1,20</div>
+                <div class="alho-JXtMVO poppins-medium-black-25px">Alho</div>
+                <div class="x2-uni-JXtMVO poppins-bold-black-20px">2 uni</div>
+                <div class="x400-JXtMVO poppins-bold-black-25px">4,00</div>
+                <div class="beterraba-JXtMVO poppins-medium-black-25px">Beterraba</div>
+                <div class="x1-kg-JXtMVO poppins-bold-black-20px">1 kg</div>
+                <div class="x300-JXtMVO poppins-bold-black-25px">3,00</div>
+                <div class="tomate-JXtMVO poppins-medium-black-25px">Tomate</div>
+                <div class="x300-g-JXtMVO poppins-bold-black-20px">300 g</div>
+                <div class="x300-ixGjWI poppins-bold-black-25px">3,00</div>
+                <div class="x2370-JXtMVO poppins-bold-black-25px">23,70</div>
+                <div class="total-JXtMVO poppins-bold-black-25px">TOTAL</div>
+                <div class="manjerico-JXtMVO poppins-medium-black-25px">Manjericão</div>
+                <div class="x5-uni-JXtMVO poppins-bold-black-20px">5 uni</div>
+                <div class="x1000-JXtMVO poppins-bold-black-25px">10,00</div>
+                <div class="cenoura-JXtMVO poppins-medium-black-25px">Cenoura</div>
+              </div>
+            </div>
+            <div class="auto-flex4-PhOxO2">
+              <div class="grupo-118-Gf0Him"><div class="imprimir-listas-abaWdx">IMPRIMIR LISTAS</div></div>
+              <div class="grupo-119-Gf0Him"><div class="fechar-pedidos-K833cx">FECHAR PEDIDOS</div></div>
+            </div>
+            <div class="so-fechado-da-entrega-9ppAwT">são fechados automaticamente<br />12h antes da entrega</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-avisos" class="overlay" style="min-height: 2662px">
+      <div class="container-center-horizontal">
+        <div class="avisos screen">
+          <div class="retngulo-44-C61RwL border-class-1"></div>
+          <div class="retngulo-45-C61RwL border-class-1"></div>
+          <div class="retngulo-46-C61RwL border-class-1"></div>
+          <img class="icon-aweso-mment-dots-C61RwL" src="img/icon-awesome-comment-dots@1x.png" />
+          <img class="icon-awesome-star-C61RwL" src="img/icon-awesome-star@1x.png" />
+          <div class="novo-comen-o-emalface-C61RwL">Novo Comentário em<br />Alface</div>
+          <div class="nova-avali-o-emalface-C61RwL">Nova Avaliação em<br />Alface</div>
+          <div class="melancia-estacabando-C61RwL">Melancia está<br />acabando</div>
+          <div class="x-C61RwL">X</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-avisos";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("avisos", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-chat" class="overlay" style="min-height: 2662px">
+      <div class="container-center-horizontal">
+        <div class="chat screen">
+          <div class="overlap-group6-C61RwL">
+            <div class="retngulo-46-KnyYHa border-class-1"></div>
+            <img class="elipse-6-KnyYHa" src="img/elipse-6@1x.png" />
+            <div class="voc-levari-liana-tera-KnyYHa">Você levaria minha geléia<br />na terça?</div>
+          </div>
+          <div class="overlap-group5-C61RwL">
+            <div class="retngulo-45-m4CVSK border-class-1"></div>
+            <img class="elipse-7-m4CVSK" src="img/elipse-7@1x.png" />
+            <div class="sua-alface-vem-lavada-m4CVSK">Sua alface já vem lavada?</div>
+          </div>
+          <div class="overlap-group4-C61RwL">
+            <div class="retngulo-44-cYXVq0 border-class-1"></div>
+            <img class="elipse-8-cYXVq0" src="img/elipse-8@1x.png" />
+            <div class="voc-tem-es-inho-sbado-cYXVq0">Você tem espaço no seu<br />caminhão sábado?</div>
+          </div>
+          <div class="overlap-group3-C61RwL">
+            <div class="retngulo-43-eSNWXa border-class-1"></div>
+            <img class="elipse-9-eSNWXa" src="img/elipse-9@1x.png" />
+            <div class="quando-voc-ga-nafeira-eSNWXa">Quando você chega na<br />feira?</div>
+          </div>
+          <div class="overlap-group2-C61RwL">
+            <div class="retngulo-42-4a9k2Y border-class-1"></div>
+            <img class="elipse-10-4a9k2Y" src="img/elipse-10@1x.png" />
+            <div class="me-recomen-to-bem-bom-4a9k2Y">Me recomendaria algum<br />produto bem bom?</div>
+          </div>
+          <div class="overlap-group1-C61RwL">
+            <div class="retngulo-41-RH0WJ5 border-class-1"></div>
+            <img class="elipse-11-RH0WJ5" src="img/elipse-11@1x.png" />
+            <div class="estou-a-caminho-RH0WJ5">Estou a caminho!</div>
+          </div>
+          <div class="overlap-group-C61RwL">
+            <div class="retngulo-40-4eduM0 border-class-1"></div>
+            <img class="elipse-12-4eduM0" src="img/elipse-12@1x.png" />
+            <div class="seus-produ--em-so-jos-4eduM0">Seus produtos são ótimos!<br />Entregaria em São José?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-chat";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("chat", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-perfil" class="overlay" style="min-height: 2662px">
+      <div class="container-center-horizontal">
+        <div class="perfil screen">
+          <div class="retngulo-44-C61RwL border-class-1"></div>
+          <div class="retngulo-45-C61RwL border-class-1"></div>
+          <div class="retngulo-46-C61RwL border-class-1"></div>
+          <img class="elipse-5-C61RwL" src="img/elipse-5@1x.png" />
+          <div class="minha-conta-C61RwL">Minha Conta</div>
+          <div class="configuraes-C61RwL">Configurações</div>
+          <div class="sair-C61RwL">Sair</div>
+          <div class="icon-feath-r-settings-C61RwL">
+            <img class="caminho-43-gZSEgZ" src="img/caminho-43@1x.png" />
+            <img class="caminho-44-gZSEgZ" src="img/caminho-44@1x.png" />
+          </div>
+          <img class="icon-metro-exit-C61RwL" src="img/icon-metro-exit@1x.png" />
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-perfil";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("perfil", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

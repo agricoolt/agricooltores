@@ -1,0 +1,241 @@
+/* screen - varios */
+
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+.varios {
+  background-color: transparent;
+  height: 1080px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.varios .elipse-4-Q5Xm3Y {
+  background-color: transparent;
+  height: 98px;
+  left: 84px;
+  position: absolute;
+  top: 66px;
+  width: 98px;
+}
+.varios .grupo-113-Q5Xm3Y {
+  background-color: transparent;
+  bottom: 63px;
+  height: 56px;
+  position: absolute;
+  right: 84px;
+  width: 252px;
+}
+.varios .grupo-114-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/caminho-42@1x.png);
+  background-size: 100% 100%;
+  height: 689px;
+  left: 353px;
+  position: absolute;
+  top: 196px;
+  width: 1215px;
+}
+.varios .grupo-97-1y8ZPA {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.varios .procurar-n-computador-Q5Xm3Y {
+  background-color: transparent;
+  bottom: calc(45.31% - 26px);
+  color: var(--quick-silver);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  height: 58px;
+  letter-spacing: 0.00px;
+  line-height: 45px;
+  position: absolute;
+  right: calc(45.54% - 231px);
+  text-align: left;
+  white-space: nowrap;
+  width: 508px;
+}
+.varios .prximo-1y8ZPA {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 14px);
+  letter-spacing: 1.45px;
+  line-height: 29px;
+  position: absolute;
+  right: calc(49.03% - 73px);
+  text-align: left;
+  top: 13px;
+  white-space: nowrap;
+  width: 149px;
+}
+.varios .retngulo-2-Q5Xm3Y {
+  background-color: transparent;
+  border-radius: 13px;
+  height: 47.73%;
+  left: 6.65%;
+  position: absolute;
+  top: 29.69%;
+  width: 86.70%;
+}
+.varios .retngulo-3-LxICb3 {
+  background-color: var(--atlantis);
+  border-radius: 35px;
+  height: 108.98%;
+  left: -0.99%;
+  position: relative;
+  top: -4.49%;
+  width: 101.99%;
+}
+.varios .retngulo-50-C61RwL {
+  background-color: rgba(214,214,214,1.0);
+  height: 1080px;
+  left: 0px;
+  opacity: 0.83;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.varios .selecione---adicionar-Q5Xm3Y {
+  background-color: transparent;
+  color: var(--quick-silver);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 579px);
+  letter-spacing: 1.90px;
+  line-height: 55px;
+  position: absolute;
+  right: calc(26.42% - 239px);
+  text-align: left;
+  top: 61px;
+  white-space: nowrap;
+  width: 905px;
+}
+.varios .x1-Q5Xm3Y {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 634px);
+  left: calc(10.49% - 2px);
+  letter-spacing: 1.90px;
+  line-height: 38px;
+  position: absolute;
+  text-align: left;
+  top: 96px;
+  white-space: nowrap;
+  width: 16px;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}

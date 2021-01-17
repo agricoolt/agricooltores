@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/adicionar-um.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:900,500,700");
+
+      @font-face {
+        font-family: "Brasilero";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/60049ff6685e8279ca1ea700/fonts/brasilero.TTF")
+          format("None");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="adicionar-um" />
+    <div class="container-center-horizontal">
+      <div class="adicionar-um screen">
+        <a href="minha-loja.html"> <div class="retngulo-50-C61RwL border-class-1"></div></a>
+        <div class="grupo-112-C61RwL">
+          <div class="quantos-pr-plataforma-mhBSSo poppins-medium-boulder-25px">
+            Quantos Produtos desse você quer vender pela plataforma?
+          </div>
+          <div class="foram-enco-r-e-r-cada-mhBSSo">
+            Foram encontrados _ produtos nas mesmas categorias.<br />_ são vendidos na sua mesma região.<br />Os preços
+            variam entre R$_ e R$_ cada _
+          </div>
+          <div class="qual-preo-mhBSSo poppins-medium-boulder-25px">Qual preço?</div>
+          <div class="qual-unidade-mhBSSo poppins-medium-boulder-25px">Qual unidade?</div>
+          <div class="grupo-98-mhBSSo">
+            <div class="grupo-97-BErp8O">
+              <div class="retngulo-3-R8iZUR border-class-6"></div>
+            </div>
+            <div class="adicionar-BErp8O">ADICIONAR</div>
+          </div>
+          <div class="grupo-99-mhBSSo">
+            <div class="grupo-97-bjzVLt">
+              <div class="retngulo-3-y8AJCR border-class-2"></div>
+            </div>
+            <div class="excluir-bjzVLt">EXCLUIR</div>
+          </div>
+          <div class="grupo-106-mhBSSo">
+            <div class="retngulo-2-iUGoYP border-class-5"></div>
+            <div class="escolherimagem-iUGoYP">Escolher<br />Imagem</div>
+            <img class="icon-awesome-plus-iUGoYP" src="img/icon-awesome-plus-1@1x.png" />
+          </div>
+          <div class="grupo-108-mhBSSo"><div class="nome-w7arQn poppins-medium-boulder-21px">Nome</div></div>
+          <div class="repetio-de-grade-4-mhBSSo">
+            <div class="grupo-107-ook03i">
+              <div class="categoria-1-eKzsHR poppins-medium-boulder-21px">Categoria 1</div>
+              <div class="x-eKzsHR poppins-medium-boulder-45px">&gt;</div>
+            </div>
+            <div class="grupo-107-FkexAV">
+              <div class="categoria-2-NVxVMz poppins-medium-boulder-21px">Categoria 2</div>
+              <div class="x-NVxVMz poppins-medium-boulder-45px">&gt;</div>
+            </div>
+            <div class="grupo-107-VOjDsz">
+              <div class="categoria-3-ayjJOT poppins-medium-boulder-21px">Categoria 3</div>
+              <div class="x-ayjJOT poppins-medium-boulder-45px">&gt;</div>
+            </div>
+          </div>
+          <div class="grupo-109-mhBSSo"><div class="x-X5BhIP poppins-medium-boulder-21px">|</div></div>
+          <div class="grupo-110-mhBSSo"><div class="unidade-ShcbME poppins-medium-boulder-21px">Unidade</div></div>
+          <div class="grupo-111-mhBSSo"><div class="r-JhzWRp poppins-medium-boulder-21px">R$</div></div>
+          <div class="x-mhBSSo poppins-medium-boulder-45px">&gt;</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

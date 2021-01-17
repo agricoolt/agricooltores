@@ -1,0 +1,1568 @@
+/* screen - pagamentos */
+
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.pagamentos {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 1080px;
+  justify-content: flex-start;
+  min-width: 1920px;
+  overflow-x: hidden;
+  position: relative;
+  width: auto;
+}
+.pagamentos .aceita-carto-na-hora-11mxv6 {
+  align-self: flex-end;
+  background-color: transparent;
+  color: var(--citron);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  min-height: 59px;
+  min-width: 476px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .aceita-din-ro-na-hora-yxrPEp {
+  background-color: transparent;
+  color: var(--citron);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  min-height: 59px;
+  min-width: 509px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .agricooltor-5xrGeF {
+  background-color: transparent;
+  bottom: -4px;
+  color: rgba(22,22,21,1.0);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: None;
+  height: 61px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 54px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.pagamentos .auto-flex-lBgsDN {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 59px;
+  justify-content: flex-start;
+  margin-left: 38px;
+  margin-top: 37px;
+  min-width: 329px;
+  position: relative;
+  width: auto;
+}
+.pagamentos .auto-flex1-lBgsDN {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 59px;
+  justify-content: flex-start;
+  margin-left: 99px;
+  margin-top: 32px;
+  min-width: 959px;
+  position: relative;
+  width: auto;
+}
+.pagamentos .auto-flex2-KholN3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 386px;
+  position: relative;
+  width: 1503px;
+}
+.pagamentos .auto-flex3-C61RwL {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: -42px;
+  min-height: 1080px;
+  position: relative;
+  width: 459px;
+}
+.pagamentos .auto-flex4-6ztbRp {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 78px;
+  justify-content: flex-start;
+  min-width: 1322px;
+  position: relative;
+  width: auto;
+}
+.pagamentos .auto-flex5-6ztbRp {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 58px;
+  justify-content: flex-start;
+  margin-top: 1px;
+  min-width: 1311px;
+  position: relative;
+  width: auto;
+}
+.pagamentos .auto-flex6-KholN3 {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 17.0px;
+  margin-top: 21px;
+  min-height: 137px;
+  position: relative;
+  width: 1322px;
+}
+.pagamentos .auto-flex7-KholN3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 64px;
+  justify-content: flex-start;
+  margin-left: 28.0px;
+  margin-top: 1px;
+  min-width: 1311px;
+  position: relative;
+  width: auto;
+}
+.pagamentos .auto-flex8-C61RwL {
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 0px;
+  min-height: 609px;
+  position: relative;
+  width: 1503px;
+}
+.pagamentos .caminho-1-DZYrWT {
+  background-color: transparent;
+  height: 100%;
+  left: calc(33.33% - 2px);
+  position: absolute;
+  top: 0px;
+  width: 7px;
+}
+.pagamentos .caminho-2-DZYrWT {
+  background-color: transparent;
+  bottom: 0px;
+  height: 15px;
+  left: 1px;
+  position: absolute;
+  width: 7px;
+}
+.pagamentos .caminho-24-FF1CDP {
+  background-color: transparent;
+  height: 15px;
+  left: calc(27.05% - 4px);
+  position: absolute;
+  top: 6px;
+  width: 17px;
+}
+.pagamentos .caminho-25-FF1CDP {
+  background-color: transparent;
+  bottom: 6px;
+  height: 11px;
+  left: calc(16.91% - 2px);
+  position: absolute;
+  width: 11px;
+}
+.pagamentos .caminho-26-FF1CDP {
+  background-color: transparent;
+  bottom: 6px;
+  height: 11px;
+  position: absolute;
+  right: calc(16.72% - 2px);
+  width: 11px;
+}
+.pagamentos .caminho-27-FF1CDP {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .caminho-28-FF1CDP {
+  background-color: transparent;
+  bottom: 3px;
+  height: 17px;
+  left: 16px;
+  position: absolute;
+  width: 17px;
+}
+.pagamentos .caminho-29-FF1CDP {
+  background-color: transparent;
+  bottom: calc(17.01% - 1px);
+  height: 5px;
+  left: calc(18.59% - 1px);
+  position: absolute;
+  width: 5px;
+}
+.pagamentos .caminho-3-DZYrWT {
+  background-color: transparent;
+  bottom: 1px;
+  height: 21px;
+  position: absolute;
+  right: calc(33.33% - 2px);
+  width: 7px;
+}
+.pagamentos .caminho-30-FF1CDP {
+  background-color: transparent;
+  bottom: calc(24.64% - 1px);
+  height: 5px;
+  position: absolute;
+  right: 3px;
+  width: 12px;
+}
+.pagamentos .caminho-31-FF1CDP {
+  background-color: transparent;
+  bottom: 3px;
+  height: 17px;
+  position: absolute;
+  right: 16px;
+  width: 17px;
+}
+.pagamentos .caminho-32-FF1CDP {
+  background-color: transparent;
+  bottom: calc(17.01% - 1px);
+  height: 5px;
+  position: absolute;
+  right: calc(18.41% - 1px);
+  width: 5px;
+}
+.pagamentos .caminho-33-FF1CDP {
+  background-color: transparent;
+  bottom: calc(28.60% - 4px);
+  height: 13px;
+  position: absolute;
+  right: 7px;
+  width: 63px;
+}
+.pagamentos .caminho-34-FF1CDP {
+  background-color: transparent;
+  height: 23px;
+  position: absolute;
+  right: calc(28.43% - 1px);
+  top: 6px;
+  width: 4px;
+}
+.pagamentos .caminho-35-FF1CDP {
+  background-color: transparent;
+  bottom: calc(24.65% - 1px);
+  height: 5px;
+  left: 3px;
+  position: absolute;
+  width: 12px;
+}
+.pagamentos .caminho-36-FF1CDP {
+  background-color: transparent;
+  height: 42px;
+  left: 7px;
+  position: absolute;
+  top: 3px;
+  width: 42px;
+}
+.pagamentos .caminho-37-FF1CDP {
+  background-color: transparent;
+  height: 9px;
+  left: calc(28.89% - 3px);
+  position: absolute;
+  top: calc(18.70% - 2px);
+  width: 10px;
+}
+.pagamentos .caminho-38-FF1CDP {
+  background-color: transparent;
+  height: 3px;
+  left: calc(33.76% - 2px);
+  position: absolute;
+  top: calc(45.01% - 1px);
+  width: 5px;
+}
+.pagamentos .caminho-4-DZYrWT {
+  background-color: transparent;
+  bottom: 1px;
+  height: 30px;
+  position: absolute;
+  right: 1px;
+  width: 7px;
+}
+.pagamentos .componente-11-1-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 477px;
+  width: 440px;
+}
+.pagamentos .componente-12-3-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 568px;
+  width: 440px;
+}
+.pagamentos .componente-13-1-Yf9vh9 {
+  background-color: transparent;
+  height: 79px;
+  left: 1147px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.pagamentos .componente-14-1-Yf9vh9 {
+  background-color: transparent;
+  height: 79px;
+  left: 1253px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.pagamentos .componente-15-1-Yf9vh9 {
+  background-color: transparent;
+  height: 79px;
+  left: 1359px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.pagamentos .componente-17-1-SGbyNC {
+  background-color: transparent;
+  background-image: url(../img/caminho-41-1@1x.png);
+  background-size: 100% 100%;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 204px;
+  width: 440px;
+}
+.pagamentos .componente-3-1-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 22px;
+  width: 440px;
+}
+.pagamentos .componente-4-1-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 113px;
+  width: 440px;
+}
+.pagamentos .componente-5-1-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 295px;
+  width: 440px;
+}
+.pagamentos .componente-6-1-SGbyNC {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 386px;
+  width: 440px;
+}
+.pagamentos .cpf-j59JWT {
+  background-color: transparent;
+  height: auto;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .cvs-mx6IlG {
+  background-color: transparent;
+  height: auto;
+  left: 27px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .elipse-13-bhfqkg {
+  background-color: transparent;
+  height: 43px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 43px;
+}
+.pagamentos .elipse-14-bhfqkg {
+  background-color: transparent;
+  height: 25px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 25px;
+}
+.pagamentos .elipse-15-9cCs4Z {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 43px;
+  margin-left: 45px;
+  position: relative;
+  width: 42px;
+}
+.pagamentos .elipse-16-Udd3Io {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 43px;
+  position: relative;
+  width: 43px;
+}
+.pagamentos .elipse-17-xEfilJ {
+  background-color: transparent;
+  height: 43px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 42px;
+}
+.pagamentos .elipse-18-xEfilJ {
+  background-color: transparent;
+  height: 25px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 25px;
+}
+.pagamentos .entregas-mvc4bf {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(48.93% - 55px);
+  text-align: left;
+  white-space: nowrap;
+  width: 113px;
+}
+.pagamentos .grupo-1-rTVkPx {
+  background-color: transparent;
+  background-image: url(../img/caminho-5-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-10-8z9HTY {
+  background-color: transparent;
+  background-image: url(../img/caminho-9-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-11-L3PabK {
+  background-color: transparent;
+  background-image: url(../img/caminho-10@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-12-8z9HTY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-13-nTNJMD {
+  background-color: transparent;
+  height: 13px;
+  position: absolute;
+  right: 1px;
+  top: 0px;
+  width: 15px;
+}
+.pagamentos .grupo-14-s2qh5A {
+  background-color: transparent;
+  background-image: url(../img/caminho-11-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-15-vH1hQp {
+  background-color: transparent;
+  background-image: url(../img/caminho-12-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-16-s2qh5A {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-17-nTNJMD {
+  background-color: transparent;
+  bottom: 1px;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  width: 16px;
+}
+.pagamentos .grupo-18-2tNjKh {
+  background-color: transparent;
+  height: 26px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 26px;
+}
+.pagamentos .grupo-19-BgzkxY {
+  background-color: transparent;
+  background-image: url(../img/caminho-13-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-2-rzCaAo {
+  background-color: transparent;
+  background-image: url(../img/caminho-6@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-20-LC0umg {
+  background-color: transparent;
+  background-image: url(../img/caminho-14@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-21-LC0umg {
+  background-color: transparent;
+  background-image: url(../img/caminho-15-1@1x.png);
+  background-size: 100% 100%;
+  height: 7px;
+  position: absolute;
+  right: calc(49.47% - 6px);
+  top: calc(47.45% - 3px);
+  width: 12px;
+}
+.pagamentos .grupo-22-BgzkxY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-23-YH9uS9 {
+  background-color: transparent;
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.pagamentos .grupo-24-MctVSW {
+  background-color: transparent;
+  background-image: url(../img/caminho-16-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-25-yi2bbD {
+  background-color: transparent;
+  background-image: url(../img/caminho-17-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-26-MctVSW {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-27-YH9uS9 {
+  background-color: transparent;
+  bottom: 0px;
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  width: 10px;
+}
+.pagamentos .grupo-28-ixDEiw {
+  background-color: transparent;
+  background-image: url(../img/caminho-18-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-29-6P3TFY {
+  background-color: transparent;
+  background-image: url(../img/caminho-15-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-3-rTVkPx {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-30-ixDEiw {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-31-YH9uS9 {
+  background-color: transparent;
+  height: 7px;
+  left: calc(47.27% - 6px);
+  position: absolute;
+  top: calc(21.76% - 1px);
+  width: 12px;
+}
+.pagamentos .grupo-32-NhliJY {
+  background-color: transparent;
+  background-image: url(../img/caminho-20-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-33-1xastJ {
+  background-color: transparent;
+  background-image: url(../img/caminho-21-4@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-34-NhliJY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-35-YH9uS9 {
+  background-color: transparent;
+  height: calc(100.00% - 1px);
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  width: 17px;
+}
+.pagamentos .grupo-36-utm1GH {
+  background-color: transparent;
+  background-image: url(../img/caminho-22-3@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-37-17a10k {
+  background-color: transparent;
+  background-image: url(../img/caminho-23@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-38-utm1GH {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-39-YH9uS9 {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+}
+.pagamentos .grupo-4-rjz7oI {
+  background-color: transparent;
+  height: calc(100.00% - 5px);
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+.pagamentos .grupo-40-2tNjKh {
+  background-color: transparent;
+  height: 23px;
+  position: absolute;
+  right: calc(45.88% - 12px);
+  top: 3px;
+  width: 27px;
+}
+.pagamentos .grupo-41-2tNjKh {
+  background-color: transparent;
+  bottom: 0px;
+  height: 57px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 4px);
+}
+.pagamentos .grupo-42-5xrGeF {
+  background-color: transparent;
+  height: 72px;
+  position: absolute;
+  right: calc(49.06% - 62px);
+  top: 0px;
+  width: 126px;
+}
+.pagamentos .grupo-43-boduWj {
+  background-color: transparent;
+  bottom: calc(49.85% - 65px);
+  height: 131px;
+  left: 59px;
+  position: absolute;
+  width: calc(100.00% - 118px);
+}
+.pagamentos .grupo-5-L4F9HJ {
+  background-color: transparent;
+  background-image: url(../img/caminho-7@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.pagamentos .grupo-57-mCninq {
+  background-color: var(--white);
+  flex-shrink: 1;
+  height: 199px;
+  position: relative;
+  width: 417px;
+}
+.pagamentos .grupo-6-MuRbjt {
+  background-color: transparent;
+  background-image: url(../img/caminho-8-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-7-L4F9HJ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-8-rjz7oI {
+  background-color: transparent;
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 4px);
+}
+.pagamentos .grupo-9-2tNjKh {
+  background-color: transparent;
+  height: 21px;
+  position: absolute;
+  right: calc(24.33% - 5px);
+  top: 2px;
+  width: 20px;
+}
+.pagamentos .grupo-de-mscara-2-Ddi3Lb {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-de-mscara-3-LxIj8c {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .grupo-de-mscara-4-LaQAhY {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.pagamentos .icon-aweso-e-user-alt-9UaOuq {
+  background-color: transparent;
+  height: 41.22%;
+  left: 31.07%;
+  position: absolute;
+  top: 34.18%;
+  width: 37.86%;
+}
+.pagamentos .icon-aweso-ing-basket-0Ud4b1 {
+  background-color: transparent;
+  bottom: calc(46.68% - 15px);
+  height: 32px;
+  left: calc(20.28% - 8px);
+  position: absolute;
+  width: 40px;
+}
+.pagamentos .icon-aweso-money-bill-jHtctN {
+  background-color: transparent;
+  height: 27px;
+  left: calc(20.00% - 9px);
+  position: absolute;
+  top: calc(50.00% - 14px);
+  width: 45px;
+}
+.pagamentos .icon-aweso-money-bill-vbCfDa {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 27px;
+  margin-top: 7px;
+  position: relative;
+  width: 45px;
+}
+.pagamentos .icon-awesome-bell-pgvZt2 {
+  background-color: transparent;
+  height: 40.88%;
+  left: 33.57%;
+  position: absolute;
+  top: 33.99%;
+  width: 32.86%;
+}
+.pagamentos .icon-awesome-home-cvn0rL {
+  background-color: transparent;
+  bottom: calc(49.37% - 16px);
+  height: 31px;
+  left: calc(20.28% - 8px);
+  position: absolute;
+  width: 41px;
+}
+.pagamentos .icon-awesome-store-j4L9G3 {
+  background-color: transparent;
+  bottom: calc(48.57% - 17px);
+  height: 36px;
+  left: calc(19.91% - 9px);
+  position: absolute;
+  width: 43px;
+}
+.pagamentos .icon-awesome-truck-mvc4bf {
+  background-color: transparent;
+  height: calc(100.00% - 30px);
+  left: calc(19.31% - 10px);
+  position: absolute;
+  top: 15px;
+  width: 52px;
+}
+.pagamentos .icon-ionic-ios-stats-oei1RU {
+  background-color: transparent;
+  bottom: 15px;
+  height: 41px;
+  left: calc(20.52% - 8px);
+  position: absolute;
+  width: 38px;
+}
+.pagamentos .icon-mater-w-releases-gOwiKo {
+  background-color: transparent;
+  height: calc(100.00% - 35px);
+  left: calc(20.53% - 8px);
+  position: absolute;
+  top: 17px;
+  width: 38px;
+}
+.pagamentos .icon-material-chat-LXsbiL {
+  background-color: transparent;
+  height: 40.88%;
+  left: 31.22%;
+  position: absolute;
+  top: 36.52%;
+  width: 37.55%;
+}
+.pagamentos .incio-cvn0rL {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  left: calc(45.01% - 31px);
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 69px;
+}
+.pagamentos .informaes-oei1RU {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(40.14% - 65px);
+  text-align: left;
+  white-space: nowrap;
+  width: 161px;
+}
+.pagamentos .minha-loja-j4L9G3 {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(44.88% - 61px);
+  text-align: left;
+  white-space: nowrap;
+  width: 137px;
+}
+.pagamentos .minhas-vendas-0Ud4b1 {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(31.56% - 62px);
+  text-align: left;
+  white-space: nowrap;
+  width: 196px;
+}
+.pagamentos .nmero-do-carto-HheY3H {
+  background-color: transparent;
+  height: auto;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .no-9cCs4Z {
+  align-self: center;
+  background-color: transparent;
+  color: var(--boulder);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-left: 30px;
+  min-height: 45px;
+  min-width: 63px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .no-Udd3Io {
+  align-self: center;
+  background-color: transparent;
+  color: var(--boulder);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 6.0px;
+  min-height: 45px;
+  min-width: 63px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .nome-1BCv3z {
+  background-color: transparent;
+  height: auto;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  position: absolute;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .novos-pedidos-gOwiKo {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(34.25% - 64px);
+  text-align: left;
+  white-space: nowrap;
+  width: 186px;
+}
+.pagamentos .overlap-group-lBgsDN {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 199px;
+  position: relative;
+  width: 1503px;
+}
+.pagamentos .overlap-group1-mCninq {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 881px;
+  margin-top: 0px;
+  position: relative;
+  width: 459px;
+}
+.pagamentos .overlap-group2-9cCs4Z {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 58px;
+  margin-left: 424px;
+  position: relative;
+  width: 585px;
+}
+.pagamentos .overlap-group3-11mxv6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 58px;
+  margin-left: 261px;
+  position: relative;
+  width: 585px;
+}
+.pagamentos .overlap-group4-Udd3Io {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 58px;
+  margin-left: 424px;
+  position: relative;
+  width: 267px;
+}
+.pagamentos .overlap-group5-Udd3Io {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 58px;
+  margin-left: 26px;
+  position: relative;
+  width: 292px;
+}
+.pagamentos .overlap-group6-9cCs4Z {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 43px;
+  position: relative;
+  width: 43px;
+}
+.pagamentos .overlap-group7-Udd3Io {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 43px;
+  margin-left: 45px;
+  position: relative;
+  width: 42px;
+}
+.pagamentos .pagamentos-jHtctN {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(39.49% - 65px);
+  text-align: left;
+  white-space: nowrap;
+  width: 164px;
+}
+.pagamentos .pagamentos-vbCfDa {
+  background-color: transparent;
+  color: var(--citron);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  margin-left: 16px;
+  min-height: 59px;
+  min-width: 268px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .retngulo-1-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 23px;
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  width: 4px;
+}
+.pagamentos .retngulo-10-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 23px;
+  left: calc(49.02% - 2px);
+  position: absolute;
+  top: 6px;
+  width: 4px;
+}
+.pagamentos .retngulo-11-Yf9vh9 {
+  background-color: var(--citron);
+  height: 199px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1503px;
+}
+.pagamentos .retngulo-12-1BCv3z {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 585px;
+}
+.pagamentos .retngulo-13-HheY3H {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 585px;
+}
+.pagamentos .retngulo-15-j59JWT {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 267px;
+}
+.pagamentos .retngulo-16-mx6IlG {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 58px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 292px;
+}
+.pagamentos .retngulo-2-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: 14px;
+  top: 6px;
+  width: 17px;
+}
+.pagamentos .retngulo-25-SGbyNC {
+  background-color: var(--citron);
+  height: 881px;
+  left: 42px;
+  position: absolute;
+  top: 0px;
+  width: 417px;
+}
+.pagamentos .retngulo-3-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: 14px;
+  top: calc(23.06% - 1px);
+  width: 17px;
+}
+.pagamentos .retngulo-32-9UaOuq {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.pagamentos .retngulo-34-LXsbiL {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.pagamentos .retngulo-36-pgvZt2 {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.pagamentos .retngulo-4-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: 14px;
+  top: calc(35.14% - 1px);
+  width: 17px;
+}
+.pagamentos .retngulo-5-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: 14px;
+  top: calc(47.38% - 2px);
+  width: 17px;
+}
+.pagamentos .retngulo-6-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(47.38% - 2px);
+  width: 17px;
+}
+.pagamentos .retngulo-7-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(35.14% - 1px);
+  width: 17px;
+}
+.pagamentos .retngulo-8-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(23.06% - 1px);
+  width: 17px;
+}
+.pagamentos .retngulo-9-FF1CDP {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: 6px;
+  width: 17px;
+}
+.pagamentos .sim-9cCs4Z {
+  align-self: center;
+  background-color: transparent;
+  color: var(--boulder);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-left: 20px;
+  min-height: 45px;
+  min-width: 59px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .sim-Udd3Io {
+  align-self: center;
+  background-color: transparent;
+  color: var(--boulder);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-top: 6.0px;
+  min-height: 45px;
+  min-width: 59px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.pagamentos .sua-conta-yxrPEp {
+  background-color: transparent;
+  color: var(--citron);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  margin-left: 228px;
+  min-height: 59px;
+  min-width: 222px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}

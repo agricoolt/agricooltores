@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/inicio.css" />
+    <link rel="stylesheet" type="text/css" href="css/chat.css" />
+    <link rel="stylesheet" type="text/css" href="css/perfil.css" />
+    <link rel="stylesheet" type="text/css" href="css/avisos.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:900,500,700");
+
+      @font-face {
+        font-family: "Brasilero";
+        font-style: normal;
+        font-weight: 1 1000;
+        src: url("https://anima-uploads.s3.amazonaws.com/projects/60049ff6685e8279ca1ea700/fonts/brasilero.TTF")
+          format("None");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="inicio" />
+    <div class="container-center-horizontal">
+      <div class="inicio screen">
+        <div class="recebidos-pelo-site-C61RwL poppins-medium-black-30px">Recebidos pelo site</div>
+        <div class="ol-adair-C61RwL">Olá Adair!</div>
+        <a href="informacoes.html">
+          <div class="grupo-74-C61RwL">
+            <div class="grupo-65-K1cy2r">
+              <div class="retngulo-38-UxCcjV border-class-4"></div>
+              <div class="retngulo-39-UxCcjV"></div>
+            </div>
+            <div class="icon-ionic-ios-stats-K1cy2r">
+              <img class="caminho-1-ebqSxQ" src="img/caminho-1-6@1x.png" />
+              <img class="caminho-2-ebqSxQ" src="img/caminho-2-6@1x.png" />
+              <img class="caminho-3-ebqSxQ" src="img/caminho-3-6@1x.png" />
+              <img class="caminho-4-ebqSxQ" src="img/caminho-4-6@1x.png" />
+            </div>
+            <div class="informaes-K1cy2r">Informações</div>
+          </div></a
+        >
+        <a href="minha-loja.html">
+          <div class="grupo-73-C61RwL">
+            <div class="grupo-61-YgC1VZ">
+              <div class="retngulo-38-VFDUat"></div>
+              <div class="retngulo-39-VFDUat"></div>
+            </div>
+            <div class="sua-loja-YgC1VZ">Sua Loja</div>
+            <img class="icon-awesome-store-YgC1VZ" src="img/icon-awesome-store-4@1x.png" /></div
+        ></a>
+        <div class="produtos-expostos-C61RwL poppins-medium-black-30px">Produtos expostos</div>
+        <div class="acessos-na-loja-C61RwL poppins-medium-black-30px">Acessos na loja</div>
+        <div class="x20-por-instagram-C61RwL poppins-medium-black-30px">20 por instagram</div>
+        <div class="x50-por-qr-code-C61RwL poppins-medium-black-30px">50 por qr code</div>
+        <div class="x130-por-link-prprio-C61RwL poppins-medium-black-30px">130 por link próprio</div>
+        <div class="segundas-feiras-C61RwL poppins-medium-black-30px">Segundas-feiras</div>
+        <div class="fora-de-estoque-C61RwL">Fora de estoque</div>
+        <a href="minhas-vendas.html">
+          <div class="grupo-76-C61RwL">
+            <div class="grupo-61-Nd9NGF">
+              <div class="retngulo-38-4BMiCb"></div>
+              <div class="retngulo-39-4BMiCb"></div>
+            </div>
+            <div class="suas-vendas-Nd9NGF">Suas Vendas</div>
+            <img class="icon-aweso-ing-basket-Nd9NGF" src="img/icon-awesome-shopping-basket-4@1x.png" /></div
+        ></a>
+        <div class="x9-C61RwL">9</div>
+        <div class="x7-C61RwL">7</div>
+        <div class="r65670-C61RwL">R$656,70</div>
+        <div class="x3-C61RwL">3</div>
+        <div class="r25670-C61RwL">R$256,70</div>
+        <div class="x8-C61RwL">8</div>
+        <div class="x200-C61RwL">200</div>
+        <div class="x13-C61RwL">13</div>
+        <div class="x28180-C61RwL poppins-bold-jaffa-25px">281,80</div>
+        <div class="x71867-C61RwL poppins-bold-jaffa-25px">718,67</div>
+        <div class="x27067-C61RwL poppins-bold-jaffa-25px">270,67</div>
+        <div class="x2-C61RwL">2</div>
+        <div class="x140-C61RwL">140</div>
+        <div class="melhores-clientes-C61RwL poppins-bold-jaffa-25px">MELHORES CLIENTES</div>
+        <div class="produtos-m-s-vendidos-C61RwL poppins-bold-jaffa-25px">PRODUTOS MAIS VENDIDOS</div>
+        <div class="entregas-realizadas-C61RwL poppins-medium-black-30px">Entregas realizadas</div>
+        <div class="para-190121-C61RwL poppins-medium-black-30px">para 19/01/21</div>
+        <div class="para-230121-C61RwL poppins-medium-black-30px">para 23/01/21</div>
+        <div class="clientes-atendidos-C61RwL poppins-medium-black-30px">Clientes Atendidos</div>
+        <div class="nov20-C61RwL">nov/20</div>
+        <div class="dez20-C61RwL">dez/20</div>
+        <div class="jan21-C61RwL">jan/21</div>
+        <div class="produtos-vendidos-C61RwL poppins-medium-black-30px">Produtos Vendidos</div>
+        <div class="r127114-C61RwL">R$1.271,14</div>
+        <div class="grupo-62-C61RwL">
+          <div class="manuel-HkRN7x">Manuel</div>
+          <img class="elipse-1-HkRN7x" src="img/elipse-1-10@1x.png" />
+        </div>
+        <div class="grupo-70-C61RwL">
+          <div class="tomate-35uwSe">Tomate</div>
+          <img class="elipse-1-35uwSe" src="img/elipse-1-11@1x.png" />
+        </div>
+        <div class="grupo-63-C61RwL">
+          <div class="lucas-4IT4fW">Lucas</div>
+          <img class="elipse-2-4IT4fW" src="img/elipse-2-2@1x.png" />
+        </div>
+        <div class="grupo-71-C61RwL">
+          <div class="cenoura-B4ZUKP">Cenoura</div>
+          <img class="elipse-2-B4ZUKP" src="img/elipse-2-3@1x.png" />
+        </div>
+        <div class="grupo-64-C61RwL">
+          <div class="maria-dBgTRj">Maria</div>
+          <img class="elipse-3-dBgTRj" src="img/elipse-3-2@1x.png" />
+        </div>
+        <div class="grupo-72-C61RwL">
+          <div class="goiaba-LmhzTC">Goiaba</div>
+          <img class="elipse-3-LmhzTC" src="img/elipse-3-3@1x.png" />
+        </div>
+        <div class="entraram-por-C61RwL">ENTRARAM POR:</div>
+        <div class="principal---de-acesso-C61RwL">PRINCIPAL DIA DE ACESSO:</div>
+        <img class="icon-aweso--instagram-C61RwL" src="img/icon-awesome-instagram-1@1x.png" />
+        <img class="icon-metro-qrcode-C61RwL" src="img/icon-metro-qrcode-1@1x.png" />
+        <div class="icon-feather-link-C61RwL">
+          <img class="caminho-39-G4OcHo" src="img/caminho-39-1@1x.png" />
+          <img class="caminho-40-G4OcHo" src="img/caminho-40-1@1x.png" />
+        </div>
+        <a href="novos-pedidos.html">
+          <div class="grupo-75-C61RwL">
+            <div class="grupo-69-KOTZCl">
+              <div class="retngulo-38-keNHYY border-class-7"></div>
+              <div class="retngulo-39-keNHYY"></div>
+            </div>
+            <div class="novos-pedidos-KOTZCl">Novos Pedidos</div>
+            <img class="icon-mater-w-releases-KOTZCl" src="img/icon-material-new-releases-2@1x.png" /></div
+        ></a>
+        <div class="retngulo-11-C61RwL"></div>
+        <div class="retngulo-25-C61RwL"></div>
+        <div class="grupo-57-C61RwL">
+          <div class="grupo-43-Rs0r8I">
+            <div class="agricooltor-KE3mmV">Agricooltor</div>
+            <div class="grupo-42-KE3mmV">
+              <div class="grupo-9-HSkD24">
+                <div class="grupo-4-akq52j">
+                  <div class="grupo-1-4GIT8b"></div>
+                  <div class="grupo-3-4GIT8b">
+                    <div class="grupo-2-YR00HM"></div>
+                  </div>
+                </div>
+                <div class="grupo-8-akq52j">
+                  <div class="grupo-5-eLt0gD"></div>
+                  <div class="grupo-7-eLt0gD">
+                    <div class="grupo-6-8HlmgJ"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-18-HSkD24">
+                <div class="grupo-13-WS2qi7">
+                  <div class="grupo-10-f84STw"></div>
+                  <div class="grupo-12-f84STw">
+                    <div class="grupo-11-mxgpAn"></div>
+                  </div>
+                </div>
+                <div class="grupo-17-WS2qi7">
+                  <div class="grupo-14-V9JTjx"></div>
+                  <div class="grupo-16-V9JTjx">
+                    <div class="grupo-15-ay8z0K"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-40-HSkD24">
+                <div class="grupo-23-iY9lL2">
+                  <div class="grupo-19-Rdq93v"></div>
+                  <div class="grupo-22-Rdq93v">
+                    <div class="grupo-20-n2mc1K"></div>
+                    <div class="grupo-21-n2mc1K"></div>
+                  </div>
+                </div>
+                <div class="grupo-27-iY9lL2">
+                  <div class="grupo-24-xpCh0f"></div>
+                  <div class="grupo-26-xpCh0f">
+                    <div class="grupo-25-qftybI"></div>
+                  </div>
+                </div>
+                <div class="grupo-31-iY9lL2">
+                  <div class="grupo-28-0EoxYN"></div>
+                  <div class="grupo-30-0EoxYN">
+                    <div class="grupo-29-2GlBKk"></div>
+                  </div>
+                </div>
+                <div class="grupo-35-iY9lL2">
+                  <div class="grupo-32-epef2Q"></div>
+                  <div class="grupo-34-epef2Q">
+                    <div class="grupo-33-WxpGM2"></div>
+                  </div>
+                </div>
+                <div class="grupo-39-iY9lL2">
+                  <div class="grupo-36-hptCZz"></div>
+                  <div class="grupo-38-hptCZz">
+                    <div class="grupo-37-FnJBNK"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="grupo-41-HSkD24">
+                <img class="caminho-24-hbZHrl" src="img/caminho-24-1@1x.png" />
+                <img class="caminho-25-hbZHrl" src="img/caminho-25-1@1x.png" />
+                <img class="caminho-26-hbZHrl" src="img/caminho-26-4@1x.png" />
+                <img class="caminho-27-hbZHrl" src="img/caminho-27-1@1x.png" />
+                <img class="caminho-28-hbZHrl" src="img/caminho-28-1@1x.png" />
+                <img class="caminho-29-hbZHrl" src="img/caminho-29-1@1x.png" />
+                <img class="caminho-30-hbZHrl" src="img/caminho-30-1@1x.png" />
+                <img class="caminho-31-hbZHrl" src="img/caminho-31-1@1x.png" />
+                <img class="caminho-32-hbZHrl" src="img/caminho-29-1@1x.png" />
+                <img class="caminho-33-hbZHrl" src="img/caminho-33-1@1x.png" />
+                <img class="caminho-34-hbZHrl" src="img/caminho-34-1@1x.png" />
+                <div class="retngulo-1-hbZHrl"></div>
+                <div class="retngulo-2-hbZHrl"></div>
+                <div class="retngulo-3-hbZHrl"></div>
+                <div class="retngulo-4-hbZHrl"></div>
+                <div class="retngulo-5-hbZHrl"></div>
+                <div class="retngulo-6-hbZHrl"></div>
+                <div class="retngulo-7-hbZHrl"></div>
+                <div class="retngulo-8-hbZHrl"></div>
+                <div class="retngulo-9-hbZHrl"></div>
+                <div class="retngulo-10-hbZHrl"></div>
+                <img class="caminho-35-hbZHrl" src="img/caminho-35-1@1x.png" />
+                <img class="caminho-36-hbZHrl" src="img/caminho-36-1@1x.png" />
+                <img class="caminho-37-hbZHrl" src="img/caminho-37-1@1x.png" />
+                <img class="caminho-38-hbZHrl" src="img/caminho-38-1@1x.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="componente-3-1-C61RwL">
+          <img class="icon-awesome-home-JHBb1k" src="img/icon-awesome-home-2@1x.png" />
+          <div class="incio-JHBb1k poppins-medium-boulder-25px">Início</div>
+        </div>
+        <a href="minha-loja.html">
+          <div class="componente-4-1-C61RwL">
+            <img class="icon-awesome-store-Tiu8j7" src="img/icon-awesome-store-1@1x.png" />
+            <div class="minha-loja-Tiu8j7 poppins-medium-boulder-25px">Minha Loja</div>
+          </div></a
+        >
+        <a href="entregas.html">
+          <div class="componente-5-1-C61RwL">
+            <img class="icon-awesome-truck-jYxCiA" src="img/icon-awesome-truck-2@1x.png" />
+            <div class="entregas-jYxCiA poppins-medium-boulder-25px">Entregas</div>
+          </div></a
+        >
+        <a href="minhas-vendas.html">
+          <div class="componente-6-1-C61RwL">
+            <img class="icon-aweso-ing-basket-Bo9mfk" src="img/icon-awesome-shopping-basket-1@1x.png" />
+            <div class="minhas-vendas-Bo9mfk poppins-medium-boulder-25px">Minhas Vendas</div>
+          </div></a
+        >
+        <a href="pagamentos.html">
+          <div class="componente-11-1-C61RwL">
+            <img class="icon-aweso-money-bill-4Do95Y" src="img/icon-awesome-money-bill-1@1x.png" />
+            <div class="pagamentos-4Do95Y poppins-medium-boulder-25px">Pagamentos</div>
+          </div></a
+        >
+        <a href="novos-pedidos.html">
+          <div class="componente-17-1-C61RwL">
+            <div class="novos-pedidos-KFOzDy poppins-medium-boulder-25px">Novos Pedidos</div>
+            <img class="icon-mater-w-releases-KFOzDy" src="img/icon-material-new-releases-3@1x.png" /></div
+        ></a>
+        <div class="componente-12-3-C61RwL">
+          <div class="informaes-zm9ZEu poppins-medium-boulder-25px">Informações</div>
+          <div class="icon-ionic-ios-stats-zm9ZEu">
+            <img class="caminho-1-tuVBBg" src="img/caminho-1-1@1x.png" />
+            <img class="caminho-2-tuVBBg" src="img/caminho-2-1@1x.png" />
+            <img class="caminho-3-tuVBBg" src="img/caminho-3-1@1x.png" />
+            <img class="caminho-4-tuVBBg" src="img/caminho-4-1@1x.png" />
+          </div>
+        </div>
+        <div class="componente-15-1-C61RwL">
+          <a href="javascript:ShowOverlay('perfil', 'animate-appear');">
+            <div class="grupo-de-mscara-2-kY0NeG">
+              <div class="retngulo-32-cZ98hn"></div>
+              <img class="icon-aweso-e-user-alt-cZ98hn" src="img/icon-awesome-user-alt-1@1x.png" /></div
+          ></a>
+        </div>
+        <div class="componente-14-1-C61RwL">
+          <a href="javascript:ShowOverlay('chat', 'animate-appear');">
+            <div class="grupo-de-mscara-3-me518T">
+              <div class="retngulo-34-hidQsE"></div>
+              <img class="icon-material-chat-hidQsE" src="img/icon-material-chat-1@1x.png" /></div
+          ></a>
+        </div>
+        <div class="componente-13-1-C61RwL">
+          <a href="javascript:ShowOverlay('avisos', 'animate-appear');">
+            <div class="grupo-de-mscara-4-tFdH4C">
+              <div class="retngulo-36-6wSRWz"></div>
+              <img class="icon-awesome-bell-6wSRWz" src="img/icon-awesome-bell-1@1x.png" /></div
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-avisos" class="overlay" style="min-height: 1077px">
+      <div class="container-center-horizontal">
+        <div class="avisos screen">
+          <div class="retngulo-44-C61RwL border-class-1"></div>
+          <div class="retngulo-45-C61RwL border-class-1"></div>
+          <div class="retngulo-46-C61RwL border-class-1"></div>
+          <img class="icon-aweso-mment-dots-C61RwL" src="img/icon-awesome-comment-dots@1x.png" />
+          <img class="icon-awesome-star-C61RwL" src="img/icon-awesome-star@1x.png" />
+          <div class="novo-comen-o-emalface-C61RwL">Novo Comentário em<br />Alface</div>
+          <div class="nova-avali-o-emalface-C61RwL">Nova Avaliação em<br />Alface</div>
+          <div class="melancia-estacabando-C61RwL">Melancia está<br />acabando</div>
+          <div class="x-C61RwL">X</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-avisos";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("avisos", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-chat" class="overlay" style="min-height: 1077px">
+      <div class="container-center-horizontal">
+        <div class="chat screen">
+          <div class="overlap-group6-C61RwL">
+            <div class="retngulo-46-KnyYHa border-class-1"></div>
+            <img class="elipse-6-KnyYHa" src="img/elipse-6@1x.png" />
+            <div class="voc-levari-liana-tera-KnyYHa">Você levaria minha geléia<br />na terça?</div>
+          </div>
+          <div class="overlap-group5-C61RwL">
+            <div class="retngulo-45-m4CVSK border-class-1"></div>
+            <img class="elipse-7-m4CVSK" src="img/elipse-7@1x.png" />
+            <div class="sua-alface-vem-lavada-m4CVSK">Sua alface já vem lavada?</div>
+          </div>
+          <div class="overlap-group4-C61RwL">
+            <div class="retngulo-44-cYXVq0 border-class-1"></div>
+            <img class="elipse-8-cYXVq0" src="img/elipse-8@1x.png" />
+            <div class="voc-tem-es-inho-sbado-cYXVq0">Você tem espaço no seu<br />caminhão sábado?</div>
+          </div>
+          <div class="overlap-group3-C61RwL">
+            <div class="retngulo-43-eSNWXa border-class-1"></div>
+            <img class="elipse-9-eSNWXa" src="img/elipse-9@1x.png" />
+            <div class="quando-voc-ga-nafeira-eSNWXa">Quando você chega na<br />feira?</div>
+          </div>
+          <div class="overlap-group2-C61RwL">
+            <div class="retngulo-42-4a9k2Y border-class-1"></div>
+            <img class="elipse-10-4a9k2Y" src="img/elipse-10@1x.png" />
+            <div class="me-recomen-to-bem-bom-4a9k2Y">Me recomendaria algum<br />produto bem bom?</div>
+          </div>
+          <div class="overlap-group1-C61RwL">
+            <div class="retngulo-41-RH0WJ5 border-class-1"></div>
+            <img class="elipse-11-RH0WJ5" src="img/elipse-11@1x.png" />
+            <div class="estou-a-caminho-RH0WJ5">Estou a caminho!</div>
+          </div>
+          <div class="overlap-group-C61RwL">
+            <div class="retngulo-40-4eduM0 border-class-1"></div>
+            <img class="elipse-12-4eduM0" src="img/elipse-12@1x.png" />
+            <div class="seus-produ--em-so-jos-4eduM0">Seus produtos são ótimos!<br />Entregaria em São José?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-chat";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("chat", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-perfil" class="overlay" style="min-height: 1077px">
+      <div class="container-center-horizontal">
+        <div class="perfil screen">
+          <div class="retngulo-44-C61RwL border-class-1"></div>
+          <div class="retngulo-45-C61RwL border-class-1"></div>
+          <div class="retngulo-46-C61RwL border-class-1"></div>
+          <img class="elipse-5-C61RwL" src="img/elipse-5@1x.png" />
+          <div class="minha-conta-C61RwL">Minha Conta</div>
+          <div class="configuraes-C61RwL">Configurações</div>
+          <div class="sair-C61RwL">Sair</div>
+          <div class="icon-feath-r-settings-C61RwL">
+            <img class="caminho-43-gZSEgZ" src="img/caminho-43@1x.png" />
+            <img class="caminho-44-gZSEgZ" src="img/caminho-44@1x.png" />
+          </div>
+          <img class="icon-metro-exit-C61RwL" src="img/icon-metro-exit@1x.png" />
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-perfil";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var clickedDiv = e.toElement || e.target;
+          if (overlayElement.contains(clickedDiv)) {
+            HideOverlay("perfil", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1864 @@
+/* screen - minhas-vendas */
+
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.minhas-vendas {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 1080px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.minhas-vendas .agricooltor-iUFG5x {
+  background-color: transparent;
+  bottom: -4px;
+  color: rgba(22,22,21,1.0);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: None;
+  height: 61px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 54px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.minhas-vendas .auto-flex-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 199px;
+  justify-content: flex-start;
+  min-width: 1920px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex1-fgaXRX {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 111px;
+  justify-content: flex-start;
+  margin-right: 14.0px;
+  margin-top: 13px;
+  min-width: 1216px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex10-C61RwL {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 881px;
+  justify-content: flex-start;
+  margin-left: -42px;
+  margin-top: 0px;
+  min-width: 1778px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex2-cXG2hl {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 26px;
+  margin-top: 5.79px;
+  min-height: 162px;
+  position: relative;
+  width: 300px;
+}
+.minhas-vendas .auto-flex3-cXG2hl {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 184px;
+  position: relative;
+  width: 73px;
+}
+.minhas-vendas .auto-flex4-kjg2x9 {
+  align-items: center;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 184px;
+  justify-content: flex-start;
+  margin-top: 30px;
+  min-width: 399px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex5-CwUrmh {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  min-height: 271px;
+  position: relative;
+  width: 458px;
+}
+.minhas-vendas .auto-flex6-fgaXRX {
+  align-items: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 271px;
+  justify-content: flex-start;
+  min-width: 1274px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex7-fgaXRX {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 37px;
+  justify-content: flex-start;
+  margin-left: 58.6px;
+  margin-top: 44px;
+  min-width: 921px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex8-fgaXRX {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 212px;
+  justify-content: flex-start;
+  margin-top: 22px;
+  min-width: 1230px;
+  position: relative;
+  width: auto;
+}
+.minhas-vendas .auto-flex9-aKp6Uw {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 31px;
+  margin-top: 22px;
+  min-height: 711px;
+  position: relative;
+  width: 1288px;
+}
+.minhas-vendas .caminho-1-9AKBgH {
+  background-color: transparent;
+  height: 100%;
+  left: calc(33.33% - 2px);
+  position: absolute;
+  top: 0px;
+  width: 7px;
+}
+.minhas-vendas .caminho-2-9AKBgH {
+  background-color: transparent;
+  bottom: 0px;
+  height: 15px;
+  left: 0px;
+  position: absolute;
+  width: 7px;
+}
+.minhas-vendas .caminho-24-2IaUTZ {
+  background-color: transparent;
+  height: 15px;
+  left: calc(27.05% - 4px);
+  position: absolute;
+  top: 6px;
+  width: 17px;
+}
+.minhas-vendas .caminho-25-2IaUTZ {
+  background-color: transparent;
+  bottom: 6px;
+  height: 11px;
+  left: calc(16.91% - 2px);
+  position: absolute;
+  width: 11px;
+}
+.minhas-vendas .caminho-26-2IaUTZ {
+  background-color: transparent;
+  bottom: 6px;
+  height: 11px;
+  position: absolute;
+  right: calc(16.72% - 2px);
+  width: 11px;
+}
+.minhas-vendas .caminho-27-2IaUTZ {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .caminho-28-2IaUTZ {
+  background-color: transparent;
+  bottom: 3px;
+  height: 17px;
+  left: 16px;
+  position: absolute;
+  width: 17px;
+}
+.minhas-vendas .caminho-29-2IaUTZ {
+  background-color: transparent;
+  bottom: calc(17.01% - 1px);
+  height: 5px;
+  left: calc(18.59% - 1px);
+  position: absolute;
+  width: 5px;
+}
+.minhas-vendas .caminho-3-9AKBgH {
+  background-color: transparent;
+  bottom: 1px;
+  height: 21px;
+  position: absolute;
+  right: calc(33.33% - 2px);
+  width: 7px;
+}
+.minhas-vendas .caminho-30-2IaUTZ {
+  background-color: transparent;
+  bottom: calc(24.64% - 1px);
+  height: 5px;
+  position: absolute;
+  right: 3px;
+  width: 12px;
+}
+.minhas-vendas .caminho-31-2IaUTZ {
+  background-color: transparent;
+  bottom: 3px;
+  height: 17px;
+  position: absolute;
+  right: 16px;
+  width: 17px;
+}
+.minhas-vendas .caminho-32-2IaUTZ {
+  background-color: transparent;
+  bottom: calc(17.01% - 1px);
+  height: 5px;
+  position: absolute;
+  right: calc(18.41% - 1px);
+  width: 5px;
+}
+.minhas-vendas .caminho-33-2IaUTZ {
+  background-color: transparent;
+  bottom: calc(28.60% - 4px);
+  height: 13px;
+  position: absolute;
+  right: 7px;
+  width: 63px;
+}
+.minhas-vendas .caminho-34-2IaUTZ {
+  background-color: transparent;
+  height: 23px;
+  position: absolute;
+  right: calc(28.43% - 1px);
+  top: 6px;
+  width: 4px;
+}
+.minhas-vendas .caminho-35-2IaUTZ {
+  background-color: transparent;
+  bottom: calc(24.65% - 1px);
+  height: 5px;
+  left: 3px;
+  position: absolute;
+  width: 12px;
+}
+.minhas-vendas .caminho-36-2IaUTZ {
+  background-color: transparent;
+  height: 42px;
+  left: 7px;
+  position: absolute;
+  top: 3px;
+  width: 42px;
+}
+.minhas-vendas .caminho-37-2IaUTZ {
+  background-color: transparent;
+  height: 9px;
+  left: calc(28.89% - 3px);
+  position: absolute;
+  top: calc(18.70% - 2px);
+  width: 10px;
+}
+.minhas-vendas .caminho-38-2IaUTZ {
+  background-color: transparent;
+  height: 3px;
+  left: calc(33.76% - 2px);
+  position: absolute;
+  top: calc(45.01% - 1px);
+  width: 5px;
+}
+.minhas-vendas .caminho-4-9AKBgH {
+  background-color: transparent;
+  bottom: 1px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  width: 7px;
+}
+.minhas-vendas .cenoura-Y1u60L {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% + 1px);
+}
+.minhas-vendas .clientes-atendidos-IrCwZn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-top: 10px;
+  min-height: 45px;
+  min-width: 286px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .componente-11-1-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 477px;
+  width: 440px;
+}
+.minhas-vendas .componente-12-3-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 568px;
+  width: 440px;
+}
+.minhas-vendas .componente-13-1-m4FBGj {
+  background-color: transparent;
+  height: 79px;
+  left: 1147px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.minhas-vendas .componente-14-1-m4FBGj {
+  background-color: transparent;
+  height: 79px;
+  left: 1253px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.minhas-vendas .componente-15-1-m4FBGj {
+  background-color: transparent;
+  height: 79px;
+  left: 1359px;
+  position: absolute;
+  top: 120px;
+  width: 86px;
+}
+.minhas-vendas .componente-17-1-GslmMN {
+  background-color: transparent;
+  background-image: url(../img/caminho-41-1@1x.png);
+  background-size: 100% 100%;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 204px;
+  width: 440px;
+}
+.minhas-vendas .componente-3-1-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 22px;
+  width: 440px;
+}
+.minhas-vendas .componente-4-1-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 113px;
+  width: 440px;
+}
+.minhas-vendas .componente-5-1-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 295px;
+  width: 440px;
+}
+.minhas-vendas .componente-6-1-GslmMN {
+  background-color: var(--white);
+  border-radius: 41px;
+  height: 71px;
+  left: 0px;
+  position: absolute;
+  top: 386px;
+  width: 440px;
+}
+.minhas-vendas .desde-sua--em-nov2020-eV0Aem {
+  background-color: transparent;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 162px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .dez20-sv29Ox {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 53px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .elipse-1-KWm5Qz {
+  background-color: transparent;
+  height: calc(100.00% - 53px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .elipse-1-jHYS6H {
+  background-color: transparent;
+  height: calc(100.00% - 53px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .elipse-2-ULCAsA {
+  background-color: transparent;
+  height: calc(100.00% - 53px);
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .elipse-2-Y1u60L {
+  background-color: transparent;
+  height: 136px;
+  left: 2px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 2px);
+}
+.minhas-vendas .elipse-3-YcRlOb {
+  background-color: transparent;
+  height: calc(100.00% - 53px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .elipse-3-mDor9x {
+  background-color: transparent;
+  height: calc(100.00% - 53px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .entregas-p1h8kp {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(48.93% - 55px);
+  text-align: left;
+  white-space: nowrap;
+  width: 113px;
+}
+.minhas-vendas .entregas-realizadas-IrCwZn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  min-height: 45px;
+  min-width: 300px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .goiaba-mDor9x {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 19px);
+}
+.minhas-vendas .grupo-1-EMsggG {
+  background-color: transparent;
+  background-image: url(../img/caminho-5-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-10-8imYaE {
+  background-color: transparent;
+  background-image: url(../img/caminho-9-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-11-wX8dGg {
+  background-color: transparent;
+  background-image: url(../img/caminho-10-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-12-8imYaE {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-13-2CNFex {
+  background-color: transparent;
+  height: 13px;
+  position: absolute;
+  right: 1px;
+  top: 0px;
+  width: 15px;
+}
+.minhas-vendas .grupo-14-pUPkn1 {
+  background-color: transparent;
+  background-image: url(../img/caminho-11-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-15-Qsw8aO {
+  background-color: transparent;
+  background-image: url(../img/caminho-12-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-16-pUPkn1 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-17-2CNFex {
+  background-color: transparent;
+  bottom: 1px;
+  height: 17px;
+  left: 0px;
+  position: absolute;
+  width: 16px;
+}
+.minhas-vendas .grupo-18-SFVPs0 {
+  background-color: transparent;
+  height: 26px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 26px;
+}
+.minhas-vendas .grupo-19-i8GnOU {
+  background-color: transparent;
+  background-image: url(../img/caminho-13-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-2-bcXTpe {
+  background-color: transparent;
+  background-image: url(../img/caminho-6-3@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-20-xPKnA7 {
+  background-color: transparent;
+  background-image: url(../img/caminho-14-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-21-xPKnA7 {
+  background-color: transparent;
+  background-image: url(../img/caminho-15-1@1x.png);
+  background-size: 100% 100%;
+  height: 7px;
+  position: absolute;
+  right: calc(49.47% - 6px);
+  top: calc(47.45% - 3px);
+  width: 12px;
+}
+.minhas-vendas .grupo-22-i8GnOU {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-23-01pOaj {
+  background-color: transparent;
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.minhas-vendas .grupo-24-Uk6C1q {
+  background-color: transparent;
+  background-image: url(../img/caminho-16-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-25-kNw0jr {
+  background-color: transparent;
+  background-image: url(../img/caminho-17-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-26-Uk6C1q {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-27-01pOaj {
+  background-color: transparent;
+  bottom: 0px;
+  height: 5px;
+  left: 4px;
+  position: absolute;
+  width: 10px;
+}
+.minhas-vendas .grupo-28-1ikG01 {
+  background-color: transparent;
+  background-image: url(../img/caminho-18-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-29-CxvaNE {
+  background-color: transparent;
+  background-image: url(../img/caminho-15-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-3-EMsggG {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-30-1ikG01 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-31-01pOaj {
+  background-color: transparent;
+  height: 7px;
+  left: calc(47.27% - 6px);
+  position: absolute;
+  top: calc(21.76% - 1px);
+  width: 12px;
+}
+.minhas-vendas .grupo-32-zlpZu0 {
+  background-color: transparent;
+  background-image: url(../img/caminho-20-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-33-wwJTOD {
+  background-color: transparent;
+  background-image: url(../img/caminho-21-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-34-zlpZu0 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-35-01pOaj {
+  background-color: transparent;
+  height: calc(100.00% - 1px);
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  width: 17px;
+}
+.minhas-vendas .grupo-36-DpHC8e {
+  background-color: transparent;
+  background-image: url(../img/caminho-22-3@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-37-S1YsVG {
+  background-color: transparent;
+  background-image: url(../img/caminho-23-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-38-DpHC8e {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-39-01pOaj {
+  background-color: transparent;
+  height: calc(100.00% - 4px);
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+}
+.minhas-vendas .grupo-4-N9xMRn {
+  background-color: transparent;
+  height: calc(100.00% - 5px);
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+.minhas-vendas .grupo-40-SFVPs0 {
+  background-color: transparent;
+  height: 23px;
+  position: absolute;
+  right: calc(45.88% - 12px);
+  top: 3px;
+  width: 27px;
+}
+.minhas-vendas .grupo-41-SFVPs0 {
+  background-color: transparent;
+  bottom: 0px;
+  height: 57px;
+  left: 0px;
+  position: absolute;
+  width: calc(100.00% - 4px);
+}
+.minhas-vendas .grupo-42-iUFG5x {
+  background-color: transparent;
+  height: 72px;
+  position: absolute;
+  right: calc(49.06% - 62px);
+  top: 0px;
+  width: 126px;
+}
+.minhas-vendas .grupo-43-vHeKIc {
+  background-color: transparent;
+  bottom: calc(49.85% - 65px);
+  height: 131px;
+  left: 59px;
+  position: absolute;
+  width: calc(100.00% - 118px);
+}
+.minhas-vendas .grupo-5-k9TOWW {
+  background-color: transparent;
+  background-image: url(../img/caminho-7-1@1x.png);
+  background-size: 100% 100%;
+  height: calc(100.00% - 1px);
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: calc(100.00% - 1px);
+}
+.minhas-vendas .grupo-57-fhuxN3 {
+  background-color: var(--white);
+  flex-shrink: 1;
+  height: 199px;
+  position: relative;
+  width: 417px;
+}
+.minhas-vendas .grupo-6-AlOT2Y {
+  background-color: transparent;
+  background-image: url(../img/caminho-8-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-62-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 89px;
+  margin-top: 0.0px;
+  position: relative;
+  width: 136px;
+}
+.minhas-vendas .grupo-63-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 35px;
+  position: relative;
+  width: 136px;
+}
+.minhas-vendas .grupo-64-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 35px;
+  position: relative;
+  width: 136px;
+}
+.minhas-vendas .grupo-7-k9TOWW {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-70-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-top: 0.0px;
+  position: relative;
+  width: 136px;
+}
+.minhas-vendas .grupo-71-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 36px;
+  margin-top: 0.0px;
+  position: relative;
+  width: 138px;
+}
+.minhas-vendas .grupo-72-a0CUoc {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 36px;
+  margin-top: 0.0px;
+  position: relative;
+  width: 136px;
+}
+.minhas-vendas .grupo-76-kjg2x9 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 57px;
+  position: relative;
+  width: 331px;
+}
+.minhas-vendas .grupo-8-N9xMRn {
+  background-color: transparent;
+  height: 13px;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 4px);
+}
+.minhas-vendas .grupo-9-SFVPs0 {
+  background-color: transparent;
+  height: 21px;
+  position: absolute;
+  right: calc(24.33% - 5px);
+  top: 2px;
+  width: 20px;
+}
+.minhas-vendas .grupo-de-mscara-2-7tosA6 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-de-mscara-3-o1xtjj {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .grupo-de-mscara-4-hex8LN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.minhas-vendas .icon-aweso-e-user-alt-ImoXDO {
+  background-color: transparent;
+  height: 41.22%;
+  left: 31.07%;
+  position: absolute;
+  top: 34.18%;
+  width: 37.86%;
+}
+.minhas-vendas .icon-aweso-ing-basket-22R2n6 {
+  background-color: transparent;
+  bottom: calc(46.68% - 15px);
+  height: 32px;
+  left: calc(20.28% - 8px);
+  position: absolute;
+  width: 40px;
+}
+.minhas-vendas .icon-aweso-ing-basket-XVpRkG {
+  background-color: transparent;
+  height: calc(100.00% - 22px);
+  left: 0px;
+  position: absolute;
+  top: 11px;
+  width: 44px;
+}
+.minhas-vendas .icon-aweso-money-bill-K7ocam {
+  background-color: transparent;
+  height: 27px;
+  left: calc(20.00% - 9px);
+  position: absolute;
+  top: calc(50.00% - 14px);
+  width: 45px;
+}
+.minhas-vendas .icon-awesome-bell-WSgLeu {
+  background-color: transparent;
+  height: 40.88%;
+  left: 33.57%;
+  position: absolute;
+  top: 33.99%;
+  width: 32.86%;
+}
+.minhas-vendas .icon-awesome-home-Efy4px {
+  background-color: transparent;
+  bottom: calc(49.37% - 16px);
+  height: 31px;
+  left: calc(20.28% - 8px);
+  position: absolute;
+  width: 41px;
+}
+.minhas-vendas .icon-awesome-store-yxEsuB {
+  background-color: transparent;
+  bottom: calc(48.57% - 17px);
+  height: 36px;
+  left: calc(19.91% - 9px);
+  position: absolute;
+  width: 43px;
+}
+.minhas-vendas .icon-awesome-truck-p1h8kp {
+  background-color: transparent;
+  height: calc(100.00% - 30px);
+  left: calc(19.31% - 10px);
+  position: absolute;
+  top: 15px;
+  width: 52px;
+}
+.minhas-vendas .icon-ionic-ios-stats-2ixegW {
+  background-color: transparent;
+  bottom: 15px;
+  height: 41px;
+  left: calc(20.52% - 8px);
+  position: absolute;
+  width: 38px;
+}
+.minhas-vendas .icon-mater-w-releases-KYfi3a {
+  background-color: transparent;
+  height: calc(100.00% - 35px);
+  left: calc(20.53% - 8px);
+  position: absolute;
+  top: 17px;
+  width: 38px;
+}
+.minhas-vendas .icon-material-chat-PGqeMS {
+  background-color: transparent;
+  height: 40.88%;
+  left: 31.22%;
+  position: absolute;
+  top: 36.52%;
+  width: 37.55%;
+}
+.minhas-vendas .incio-Efy4px {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  left: calc(45.01% - 31px);
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 69px;
+}
+.minhas-vendas .informaes-2ixegW {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(40.14% - 65px);
+  text-align: left;
+  white-space: nowrap;
+  width: 161px;
+}
+.minhas-vendas .jan21-TprxBv {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 53px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .kg-de-alimentos-sFXvs8 {
+  align-self: flex-start;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-left: 14px;
+  margin-top: 5.65px;
+  min-height: 45px;
+  min-width: 247px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .lucas-ULCAsA {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  right: calc(45.97% - 42px);
+  text-align: left;
+  white-space: nowrap;
+  width: 92px;
+}
+.minhas-vendas .manuel-jHYS6H {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 18px);
+}
+.minhas-vendas .maria-YcRlOb {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  left: calc(49.31% - 45px);
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 91px;
+}
+.minhas-vendas .melhores-clientes-ogmxPB {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  margin-left: 318px;
+  min-height: 37px;
+  min-width: 256px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .minha-loja-yxEsuB {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(44.88% - 61px);
+  text-align: left;
+  white-space: nowrap;
+  width: 137px;
+}
+.minhas-vendas .minhas-vendas-22R2n6 {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(31.56% - 62px);
+  text-align: left;
+  white-space: nowrap;
+  width: 196px;
+}
+.minhas-vendas .nov20-6GrpRR {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 53px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .novos-pedidos-KYfi3a {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(34.25% - 64px);
+  text-align: left;
+  white-space: nowrap;
+  width: 186px;
+}
+.minhas-vendas .overlap-group-fhuxN3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 199px;
+  margin-left: 0px;
+  position: relative;
+  width: 1503px;
+}
+.minhas-vendas .overlap-group1-aKp6Uw {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 881px;
+  position: relative;
+  width: 459px;
+}
+.minhas-vendas .overlap-group2-CwUrmh {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 208px;
+  margin-bottom: 15.5px;
+  margin-left: 262px;
+  position: relative;
+  width: 554px;
+}
+.minhas-vendas .overlap-group3-sFXvs8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 88px;
+  margin-bottom: 2.9px;
+  margin-left: 320px;
+  position: relative;
+  width: 135px;
+}
+.minhas-vendas .overlap-group4-sFXvs8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 88px;
+  margin-bottom: 2.9px;
+  margin-left: 90px;
+  position: relative;
+  width: 126px;
+}
+.minhas-vendas .overlap-group5-sFXvs8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 88px;
+  margin-left: 63px;
+  position: relative;
+  width: 134px;
+}
+.minhas-vendas .pagamentos-K7ocam {
+  background-color: transparent;
+  bottom: calc(26.47% - 10px);
+  height: 37px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  right: calc(39.49% - 65px);
+  text-align: left;
+  white-space: nowrap;
+  width: 164px;
+}
+.minhas-vendas .produtos-m-s-vendidos-ogmxPB {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  min-height: 37px;
+  min-width: 347px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .produtos-vendidos-IrCwZn {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  margin-top: 15px;
+  min-height: 45px;
+  min-width: 287px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .r127114-eV0Aem {
+  background-color: transparent;
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 113px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 113px;
+  position: absolute;
+  text-align: left;
+  top: 38px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .recebidos-pelo-site-eV0Aem {
+  background-color: transparent;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .retngulo-1-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 23px;
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  width: 4px;
+}
+.minhas-vendas .retngulo-10-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 23px;
+  left: calc(49.02% - 2px);
+  position: absolute;
+  top: 6px;
+  width: 4px;
+}
+.minhas-vendas .retngulo-11-m4FBGj {
+  background-color: var(--citron);
+  height: 199px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1503px;
+}
+.minhas-vendas .retngulo-2-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: 14px;
+  top: 6px;
+  width: 17px;
+}
+.minhas-vendas .retngulo-25-GslmMN {
+  background-color: var(--citron);
+  height: 881px;
+  left: 42px;
+  position: absolute;
+  top: 0px;
+  width: 417px;
+}
+.minhas-vendas .retngulo-3-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: 14px;
+  top: calc(23.06% - 1px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-32-ImoXDO {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.minhas-vendas .retngulo-34-PGqeMS {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.minhas-vendas .retngulo-36-WSgLeu {
+  background-color: var(--white);
+  border-radius: 53px;
+  height: 108.86%;
+  left: -30.23%;
+  position: absolute;
+  top: 32.91%;
+  transform: rotate(-90deg);
+  width: 160.47%;
+}
+.minhas-vendas .retngulo-4-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: 14px;
+  top: calc(35.14% - 1px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-5-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: 14px;
+  top: calc(47.38% - 2px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-6-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(47.38% - 2px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-7-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(35.14% - 1px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-8-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 3px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: calc(23.06% - 1px);
+  width: 17px;
+}
+.minhas-vendas .retngulo-9-2IaUTZ {
+  background-color: var(--raw-sienna);
+  height: 4px;
+  position: absolute;
+  right: calc(38.41% - 7px);
+  top: 6px;
+  width: 17px;
+}
+.minhas-vendas .suas-vendas-XVpRkG {
+  background-color: transparent;
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 500;
+  height: calc(100.00% + 2px);
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  right: -2px;
+  text-align: left;
+  top: 8px;
+  white-space: nowrap;
+  width: 272px;
+}
+.minhas-vendas .tomate-KWm5Qz {
+  background-color: transparent;
+  bottom: -8px;
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  height: 46px;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: 31px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 13px);
+}
+.minhas-vendas .x-a0CUoc {
+  align-self: flex-end;
+  background-color: transparent;
+  color: var(--quick-silver);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 130px;
+  margin-left: 14px;
+  min-height: 185px;
+  min-width: 79px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x-l4l3kn {
+  align-self: flex-end;
+  background-color: transparent;
+  color: var(--quick-silver);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 130px;
+  margin-left: 6px;
+  min-height: 185px;
+  min-width: 79px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x13-HCxxqd {
+  background-color: transparent;
+  color: var(--jaffa);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  margin-top: 4px;
+  min-height: 59px;
+  min-width: 43px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x140-HCxxqd {
+  background-color: transparent;
+  color: var(--jaffa);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  margin-top: 2px;
+  min-height: 59px;
+  min-width: 73px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x27067-TprxBv {
+  background-color: transparent;
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x28180-6GrpRR {
+  background-color: transparent;
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x400-sFXvs8 {
+  align-self: flex-start;
+  background-color: transparent;
+  color: var(--jaffa);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  min-height: 59px;
+  min-width: 84px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x71867-sv29Ox {
+  background-color: transparent;
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+.minhas-vendas .x9-HCxxqd {
+  background-color: transparent;
+  color: var(--jaffa);
+  flex-shrink: 1;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  min-height: 59px;
+  min-width: 27px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}

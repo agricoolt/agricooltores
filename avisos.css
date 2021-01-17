@@ -1,0 +1,220 @@
+/* screen - avisos */
+
+.avisos {
+  background-color: transparent;
+  height: 256px;
+  overflow-x: hidden;
+  position: relative;
+  width: 480px;
+}
+.avisos .icon-aweso-mment-dots-C61RwL {
+  background-color: transparent;
+  height: 48px;
+  left: 26px;
+  position: absolute;
+  top: 20px;
+  width: 55px;
+}
+.avisos .icon-awesome-star-C61RwL {
+  background-color: transparent;
+  height: 48px;
+  left: 28px;
+  position: absolute;
+  top: 107px;
+  width: 50px;
+}
+.avisos .melancia-estacabando-C61RwL {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 183px;
+  white-space: nowrap;
+  width: auto;
+}
+.avisos .nova-avali-o-emalface-C61RwL {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 96px;
+  white-space: nowrap;
+  width: auto;
+}
+.avisos .novo-comen-o-emalface-C61RwL {
+  background-color: transparent;
+  color: var(--dove-gray);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 116px;
+  letter-spacing: 0.00px;
+  line-height: 35px;
+  position: absolute;
+  text-align: left;
+  top: 9px;
+  white-space: nowrap;
+  width: auto;
+}
+.avisos .retngulo-44-C61RwL {
+  background-color: var(--white);
+  height: 87px;
+  left: -23px;
+  position: absolute;
+  top: 174px;
+  width: 526px;
+}
+.avisos .retngulo-45-C61RwL {
+  background-color: var(--white);
+  height: 87px;
+  left: -23px;
+  position: absolute;
+  top: 87px;
+  width: 526px;
+}
+.avisos .retngulo-46-C61RwL {
+  background-color: var(--white);
+  height: 100px;
+  left: -23px;
+  position: absolute;
+  top: -13px;
+  width: 526px;
+}
+.avisos .x-C61RwL {
+  background-color: transparent;
+  color: var(--monza);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 900;
+  height: auto;
+  left: 38px;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  text-align: left;
+  top: 197px;
+  white-space: nowrap;
+  width: auto;
+}
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}

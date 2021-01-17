@@ -1,0 +1,266 @@
+/* screen - adicionar-produto */
+
+.adicionar-produto {
+  background-color: transparent;
+  height: 1080px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.adicionar-produto .a-dicionar-RaZZgE {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 424px);
+  letter-spacing: 1.90px;
+  line-height: 38px;
+  position: absolute;
+  right: calc(49.63% - 117px);
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: 235px;
+}
+.adicionar-produto .a-dicionar-SHgpT5 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 424px);
+  letter-spacing: 1.90px;
+  line-height: 38px;
+  position: absolute;
+  right: calc(49.63% - 117px);
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: 235px;
+}
+.adicionar-produto .grupo-103-RaZZgE {
+  background-color: rgba(0,155,223,1.0);
+  border-radius: 38px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.adicionar-produto .grupo-104-C61RwL {
+  background-color: transparent;
+  height: 479px;
+  left: 428px;
+  position: absolute;
+  top: 301px;
+  width: 507px;
+}
+.adicionar-produto .grupo-105-C61RwL {
+  background-color: transparent;
+  height: 479px;
+  left: 985px;
+  position: absolute;
+  top: 301px;
+  width: 507px;
+}
+.adicionar-produto .grupo-79-SHgpT5 {
+  background-color: rgba(0,155,223,1.0);
+  border-radius: 38px;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.adicionar-produto .novo-tipo-de-produto-SHgpT5 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 367px);
+  letter-spacing: 1.90px;
+  line-height: 38px;
+  position: absolute;
+  right: calc(49.28% - 148px);
+  text-align: center;
+  top: 314px;
+  white-space: nowrap;
+  width: 300px;
+}
+.adicionar-produto .novos-tipo-deprodutos-RaZZgE {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 367px);
+  letter-spacing: 1.90px;
+  line-height: 38px;
+  position: absolute;
+  right: calc(49.09% - 168px);
+  text-align: center;
+  top: 314px;
+  white-space: nowrap;
+  width: 342px;
+}
+.adicionar-produto .retngulo-50-C61RwL {
+  background-color: rgba(214,214,214,1.0);
+  height: 1080px;
+  left: 0px;
+  opacity: 0.83;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.adicionar-produto .retngulo-51-C61RwL {
+  background-color: var(--white);
+  border-radius: 144px;
+  height: 689px;
+  left: 335px;
+  position: absolute;
+  top: 196px;
+  width: 1250px;
+}
+.adicionar-produto .um-SHgpT5 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 337px);
+  letter-spacing: 5.00px;
+  line-height: 100px;
+  position: absolute;
+  right: calc(49.70% - 84px);
+  text-align: left;
+  top: 161px;
+  white-space: nowrap;
+  width: 169px;
+}
+.adicionar-produto .vrios-RaZZgE {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100.00% - 337px);
+  letter-spacing: 5.00px;
+  line-height: 100px;
+  position: absolute;
+  right: calc(48.98% - 200px);
+  text-align: left;
+  top: 161px;
+  white-space: nowrap;
+  width: 409px;
+}
+.border-class-1 {
+  border: 1px solid var(--dove-gray);
+}
+.border-class-2 {
+  border: 3px solid var(--monza);
+}
+.border-class-3 {
+  border: 3px solid var(--atlantis);
+}
+.border-class-4 {
+  border: 5px solid var(--raw-sienna);
+}
+.border-class-5 {
+  border: 6px solid var(--quick-silver);
+}
+.border-class-6 {
+  border: 5px solid var(--atlantis);
+}
+.border-class-7 {
+  border: 5px solid var(--monza);
+}
+.brasilero-normal-black-25px {
+  color: var(--black);
+  font-family: 'Brasilero', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: None;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-jaffa-25px {
+  color: var(--jaffa);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-medium-black-25px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-black-30px {
+  color: var(--black);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-20px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-21px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-25px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-medium-boulder-45px {
+  color: var(--boulder);
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+}
+:root {
+  --atlantis: rgba(152,187,45,1.0);
+  --black: rgba(0,0,0,1.0);
+  --boulder: rgba(121,120,120,1.0);
+  --citron: rgba(148,175,25,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --jaffa: rgba(244,136,60,1.0);
+  --monza: rgba(219,0,12,1.0);
+  --quick-silver: rgba(168,165,165,1.0);
+  --raw-sienna: rgba(201,137,71,1.0);
+  --white: rgba(255,255,255,1.0);
+}
